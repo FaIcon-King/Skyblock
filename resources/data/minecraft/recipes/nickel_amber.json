@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "orechards:nickel_resin"
+    },
+    "o": {
+      "item": "orechards:nickel_acorn"
+    }
+  },
+  "pattern": [
+    "o#o",
+    "#o#",
+    "o#o"
+  ],
+  "result": {
+    "item": "orechards:nickel_amber"
+  }
+}

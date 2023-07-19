@@ -1,0 +1,35 @@
+{
+  "_comment1": "max_inventory is the max amount of items that can be stored [1-1024]",
+  "_comment2": "tick_delays is the delay between generation of items [minimum 1]",
+  "_comment3": "num_per_delay is the number of items created each cycle [1-1024]",
+  "wood": {
+    "max_inventory": "64",
+    "tick_delay": "40",
+    "num_per_delay": "1"
+  },
+  "stone": {
+    "max_inventory": "128",
+    "tick_delay": "30",
+    "num_per_delay": "1"
+  },
+  "iron": {
+    "max_inventory": "256",
+    "tick_delay": "20",
+    "num_per_delay": "1"
+  },
+  "diamond": {
+    "max_inventory": "512",
+    "tick_delay": "20",
+    "num_per_delay": "2"
+  },
+  "emerald": {
+    "max_inventory": "512",
+    "tick_delay": "10",
+    "num_per_delay": "2"
+  },
+  "netherite": {
+    "max_inventory": "1024",
+    "tick_delay": "2",
+    "num_per_delay": "2"
+  }
+}

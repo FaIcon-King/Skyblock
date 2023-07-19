@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/prosperity_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:prosperity_log"},
+  "b":{"block":"orechards:prosperity_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

@@ -1,0 +1,463 @@
+{
+	id: "6BC8E3E14DB0DDBE"
+	group: "4C92E9F4EA033802"
+	order_index: 1
+	filename: "classic_modded_skyblock"
+	title: "Classic Modded Skyblock"
+	icon: "exnihilosequentia:iron_pieces"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -6.5d
+			description: ["Higher tier meshes have a greater chance to drop certain items and can sometimes drop more types of items."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "15B3BAEE60BA225F"
+			tasks: [{
+				id: "5B31A7F787B56F04"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			dependencies: ["15B3BAEE60BA225F"]
+			dependency_requirement: "all_started"
+			id: "0084F1E76C343DE7"
+			tasks: [{
+				id: "5F8A6190E6E50664"
+				type: "item"
+				item: "exnihilosequentia:diamond_mesh"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["0084F1E76C343DE7"]
+			id: "1AE914677FAF493D"
+			tasks: [{
+				id: "5B06F6BAB9AAEC42"
+				type: "item"
+				item: "exnihilosequentia:emerald_mesh"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			dependencies: ["1AE914677FAF493D"]
+			id: "6AFAE34221D85B21"
+			tasks: [{
+				id: "43FA61C78EBA16E9"
+				type: "item"
+				item: "exnihilosequentia:netherite_mesh"
+			}]
+		}
+		{
+			title: "Wooden Crucible"
+			icon: "excompressum:oak_crucible"
+			x: -6.0d
+			y: -6.0d
+			description: ["Make some form of wooden crucible. Place this over a heat source such as a torch and fill it with leaves. It will produce water."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "77D321BE8586B9BB"
+			tasks: [{
+				id: "1F58D061E238B4F1"
+				type: "item"
+				title: "Any #excompressum:crucibles/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "excompressum:crucibles/wooden"
+					}
+				}
+			}]
+		}
+		{
+			title: "Porcelain Crucible"
+			x: -6.0d
+			y: -4.0d
+			subtitle: "Liquid Hot Magma"
+			description: ["Make an unfired crucible and then smelt it. Place this over a heat source such as a torch and fill it with cobblestone. It will produce lava."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "15368A0B72F2166B"
+			tasks: [{
+				id: "23620583218A7F61"
+				type: "item"
+				item: "exnihilosequentia:fired_crucible"
+			}]
+		}
+		{
+			title: "Obsidian"
+			icon: "minecraft:obsidian"
+			x: -4.5d
+			y: -5.0d
+			subtitle: "You know where this is going"
+			description: ["If you put lava in a stone barrel and then cover the barrel with water, you can obtain obsidian without ever needing to mine it."]
+			dependencies: [
+				"15368A0B72F2166B"
+				"77D321BE8586B9BB"
+			]
+			id: "662C94D6584E87A8"
+			tasks: [
+				{
+					id: "376956D95D2AB818"
+					type: "item"
+					item: "exnihilosequentia:stone_barrel"
+				}
+				{
+					id: "261F76A17428218B"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			subtitle: "It was going here, obviously."
+			description: ["Say hi to the blazes for me."]
+			dependencies: ["662C94D6584E87A8"]
+			id: "7AEB26146B3B7BEC"
+			tasks: [{
+				id: "363257820C9C06FA"
+				type: "dimension"
+				title: "Visit the Nether"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "End Cake"
+			icon: "exnihilosequentia:end_cake"
+			x: -1.5d
+			y: -5.0d
+			subtitle: "Ender?"
+			dependencies: ["7AEB26146B3B7BEC"]
+			id: "619A3D2D95936678"
+			tasks: [
+				{
+					id: "20837B7571DA2101"
+					type: "item"
+					item: "exnihilosequentia:end_cake"
+				}
+				{
+					id: "50CB4B4485CC3749"
+					type: "dimension"
+					title: "Visit the End"
+					dimension: "minecraft:the_end"
+				}
+			]
+		}
+		{
+			title: "Netherite"
+			x: -3.0d
+			y: -6.5d
+			description: ["Obtain some netherite. You can either crush netherrack with a hammer and sift it or just mine some normally."]
+			dependencies: ["7AEB26146B3B7BEC"]
+			id: "02CEA4B747B5416D"
+			tasks: [{
+				id: "09EA1334A9EEC6AF"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 4L
+			}]
+		}
+		{
+			title: "Wither Parts"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -3.0d
+			y: -3.5d
+			subtitle: "Wither?"
+			description: ["There's plenty of ways to get this stuff. I'm sure you can figure something out."]
+			dependencies: ["7AEB26146B3B7BEC"]
+			id: "08006F52CE95C4E1"
+			tasks: [
+				{
+					id: "3767F5A1CBA4B95B"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "733C59991AE3C77A"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Kill the Wither"
+			icon: "minecraft:nether_star"
+			x: -3.0d
+			y: -2.0d
+			subtitle: "I barely know her."
+			description: ["Slay the King of the Nether and claim your prize."]
+			dependencies: ["08006F52CE95C4E1"]
+			id: "636EB629C226BC85"
+			tasks: [
+				{
+					id: "788F8B5B22579A10"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+				{
+					id: "494451CC6303B6C9"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+			]
+		}
+		{
+			title: "Kill the Ender Dragon"
+			icon: "minecraft:dragon_egg"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "I barely know her."
+			description: ["Slay the Queen of the End and claim your prize."]
+			dependencies: ["619A3D2D95936678"]
+			id: "577E7B5CA8355240"
+			tasks: [
+				{
+					id: "41B0DBBC934D4B2C"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+				{
+					id: "1BDE6B066DD6AD4A"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+			]
+		}
+		{
+			title: "Porcelain Doll"
+			x: -6.0d
+			y: -8.0d
+			description: [
+				"These are used to make dolls which, when right clicked on a barrel filled with the respective fluid, spawn a mob. "
+				""
+				"The most useful ones for this pack are probably the blitz, basalz, and blizz dolls, as most other mobs can either be found relatively easily or aren't very useful."
+			]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "09B249DB42AE051C"
+			tasks: [{
+				id: "6FE92F4A0C4AF59E"
+				type: "item"
+				item: "exnihilosequentia:crafting_doll"
+			}]
+		}
+		{
+			title: "Witch Water"
+			icon: "exnihilosequentia:witch_water_bucket"
+			x: -4.5d
+			y: -8.0d
+			description: ["Mycelium can be made by right clicking dirt with mycelium spores, and a barrel of water above mycelium will turn into witch water, which is a fluid required for some of the dolls."]
+			dependencies: ["09B249DB42AE051C"]
+			id: "08E999AF964E1626"
+			tasks: [
+				{
+					id: "664659851F166F83"
+					type: "item"
+					item: "exnihilosequentia:mycelium_spores"
+				}
+				{
+					id: "5B50F9E77411EB87"
+					type: "item"
+					item: "exnihilosequentia:witch_water_bucket"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			dependencies: ["09B249DB42AE051C"]
+			id: "0E8242B4F697C064"
+			tasks: [{
+				id: "520EB13144BF4DE4"
+				type: "item"
+				item: "exnihilothermal:blitz_doll"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			dependencies: ["09B249DB42AE051C"]
+			id: "24A0CFF4E6C27C12"
+			tasks: [{
+				id: "77D2975408597FEE"
+				type: "item"
+				item: "exnihilothermal:basalz_doll"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.5d
+			dependencies: ["09B249DB42AE051C"]
+			id: "7C03CB4C96DD7657"
+			tasks: [{
+				id: "4B0FD45C24A0B1C8"
+				type: "item"
+				item: "exnihilothermal:blizz_doll"
+			}]
+		}
+		{
+			title: "Elytra"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Take flight"
+			description: ["Make sure to grab some chorus while you're out there too."]
+			dependencies: ["577E7B5CA8355240"]
+			id: "6526642A72696207"
+			tasks: [{
+				id: "24C87D8D3A52F1F7"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Auto Cobble I"
+			x: 2.0d
+			y: -7.0d
+			description: ["These blocks automatically generate cobblestone and output it to the block above. Higher tiers produce cobblestone faster."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "5244A26159D25F3E"
+			tasks: [{
+				id: "5B0789A92E23C0BA"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+		{
+			title: "Auto Gravel"
+			x: 3.0d
+			y: -7.0d
+			description: [
+				"The flux hammer takes a hammer-able input and crushes it automatically using RF. "
+				""
+				"It will only work if it has an inventory on its output side to push the product into. The output side is the side facing you when you place it down."
+			]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "00AA8719CCA1CFA5"
+			tasks: [{
+				id: "54E23845C3D07B1E"
+				type: "item"
+				item: "exmachinis:flux_hammer"
+			}]
+		}
+		{
+			title: "Auto Sieve"
+			x: 2.0d
+			y: -6.0d
+			description: [
+				"The flux sieve takes siftable blocks and automatically sifts them using the mesh placed inside and RF."
+				""
+				"It will only function if it has an inventory on its output side, which is directly below it."
+			]
+			dependencies: ["00AA8719CCA1CFA5"]
+			id: "1F2488D505C07A4D"
+			tasks: [{
+				id: "7124986FBE308F19"
+				type: "item"
+				item: "exmachinis:flux_sieve"
+			}]
+		}
+		{
+			title: "Auto Upgrade I"
+			x: 3.0d
+			y: -5.0d
+			description: ["Upgrades can be put into any machine from ex machinis, and increase the amount of blocks processed while decreasing the amount of ticks between operations. This comes at the cost of using more power."]
+			dependencies: ["1F2488D505C07A4D"]
+			id: "70C034FF54E7A2B4"
+			tasks: [{
+				id: "79EC1C3D555E4274"
+				type: "item"
+				item: "exmachinis:gold_upgrade"
+			}]
+		}
+		{
+			title: "Auto Cobble II"
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["5244A26159D25F3E"]
+			id: "29B638523FCFE725"
+			tasks: [{
+				id: "606A46BAA500FCF2"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			title: "Auto Cobble III"
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["29B638523FCFE725"]
+			id: "218849CF9F0DB284"
+			tasks: [{
+				id: "4B47DA90EE385FAB"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			title: "Auto Cobble IV"
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["218849CF9F0DB284"]
+			id: "043B0F200127F310"
+			tasks: [{
+				id: "203BDC60EA81E04D"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			title: "Auto Cobble V"
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["043B0F200127F310"]
+			id: "4DF21BB88A183C19"
+			tasks: [{
+				id: "5D39E092493D36DA"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+		}
+		{
+			title: "Auto Upgrade II"
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["70C034FF54E7A2B4"]
+			id: "7CE85865C6721A65"
+			tasks: [{
+				id: "11F6BDA88BCB478F"
+				type: "item"
+				item: "exmachinis:diamond_upgrade"
+			}]
+		}
+		{
+			title: "Auto Upgrade III"
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["7CE85865C6721A65"]
+			id: "287D0F87421A0148"
+			tasks: [{
+				id: "3AC446F725E5D407"
+				type: "item"
+				item: "exmachinis:netherite_upgrade"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

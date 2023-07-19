@@ -1,0 +1,17 @@
+{"bookshelf:load_conditions":[
+  {"type":"bookshelf:item_exists","values":["orechards:coal_sapling"]}
+],
+  "type":"botanypots:crop",
+  "seed":{"item":"orechards:coal_sapling"},
+  "categories":["dirt"],
+  "growthTicks":1200,
+  "display":{"block":"orechards:coal_sapling"},
+  "drops":[
+    {"chance":1.00,"output":{"item":"minecraft:oak_log"},"minRolls":1,"maxRolls":3},
+    {"chance":1.00,"output":{"item":"orechards:coal_resin"},"minRolls":1,"maxRolls":3},
+    {"chance":0.75,"output":{"item":"orechards:coal_acorn"},"minRolls":1,"maxRolls":3},
+    {"chance":0.20,"output":{"item":"minecraft:coal"},"minRolls":1,"maxRolls":2},
+    {"chance":0.01,"output":{"item":"orechards:coal_leaves"}},
+    {"chance":0.01,"output":{"item":"orechards:coal_log"}},
+    {"chance":0.01,"output":{"item":"orechards:coal_sapling"}}
+  ]}

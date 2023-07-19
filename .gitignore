@@ -1,0 +1,12 @@
+/.curseclient
+/backups
+/crash-reports
+/downloads
+/journeymap
+/local
+/logs
+/reauth.toml
+/rhino.local.properties
+/saves
+/usercache.json
+/usernamecache.json

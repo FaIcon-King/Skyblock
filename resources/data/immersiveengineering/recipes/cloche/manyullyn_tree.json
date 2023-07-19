@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:manyullyn_resin","count":2},
+  {"item":"orechards:manyullyn_acorn","count":2}
+],
+  "input":{"item":"orechards:manyullyn_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:manyullyn_sapling"}}

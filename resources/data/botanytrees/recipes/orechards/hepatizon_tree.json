@@ -1,0 +1,17 @@
+{"bookshelf:load_conditions":[
+  {"type":"bookshelf:item_exists","values":["orechards:hepatizon_sapling"]}
+],
+  "type":"botanypots:crop",
+  "seed":{"item":"orechards:hepatizon_sapling"},
+  "categories":["dirt"],
+  "growthTicks":1200,
+  "display":{"block":"orechards:hepatizon_sapling"},
+  "drops":[
+    {"chance":1.00,"output":{"item":"minecraft:oak_log"},"minRolls":1,"maxRolls":3},
+    {"chance":1.00,"output":{"item":"orechards:hepatizon_resin"},"minRolls":1,"maxRolls":3},
+    {"chance":0.75,"output":{"item":"orechards:hepatizon_acorn"},"minRolls":1,"maxRolls":3},
+    {"chance":0.20,"output":{"item":"tconstruct:hepatizon_nugget"},"minRolls":1,"maxRolls":2},
+    {"chance":0.01,"output":{"item":"orechards:hepatizon_leaves"}},
+    {"chance":0.01,"output":{"item":"orechards:hepatizon_log"}},
+    {"chance":0.01,"output":{"item":"orechards:hepatizon_sapling"}}
+  ]}

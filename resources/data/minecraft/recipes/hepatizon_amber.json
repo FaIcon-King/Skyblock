@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "orechards:hepatizon_resin"
+    },
+    "o": {
+      "item": "orechards:hepatizon_acorn"
+    }
+  },
+  "pattern": [
+    "o#o",
+    "#o#",
+    "o#o"
+  ],
+  "result": {
+    "item": "orechards:hepatizon_amber"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "orechards:cookie_resin"
+    },
+    "o": {
+      "item": "orechards:cookie_acorn"
+    }
+  },
+  "pattern": [
+    "o#o",
+    "#o#",
+    "o#o"
+  ],
+  "result": {
+    "item": "orechards:cookie_amber"
+  }
+}

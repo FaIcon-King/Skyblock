@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/redstone_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:redstone_log"},
+  "b":{"block":"orechards:redstone_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

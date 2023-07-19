@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "orechards:quartz_resin"
+    },
+    "o": {
+      "item": "orechards:quartz_acorn"
+    }
+  },
+  "pattern": [
+    "o#o",
+    "#o#",
+    "o#o"
+  ],
+  "result": {
+    "item": "orechards:quartz_amber"
+  }
+}

@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/hepatizon_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:hepatizon_log"},
+  "b":{"block":"orechards:hepatizon_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

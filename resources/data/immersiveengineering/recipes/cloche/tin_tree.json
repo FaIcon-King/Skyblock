@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:tin_resin","count":2},
+  {"item":"orechards:tin_acorn","count":2}
+],
+  "input":{"item":"orechards:tin_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:tin_sapling"}}

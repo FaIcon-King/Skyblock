@@ -1,0 +1,17 @@
+{"bookshelf:load_conditions":[
+  {"type":"bookshelf:item_exists","values":["orechards:cookie_sapling"]}
+],
+  "type":"botanypots:crop",
+  "seed":{"item":"orechards:cookie_sapling"},
+  "categories":["dirt"],
+  "growthTicks":1200,
+  "display":{"block":"orechards:cookie_sapling"},
+  "drops":[
+    {"chance":1.00,"output":{"item":"minecraft:oak_log"},"minRolls":1,"maxRolls":3},
+    {"chance":1.00,"output":{"item":"orechards:cookie_resin"},"minRolls":1,"maxRolls":3},
+    {"chance":0.75,"output":{"item":"orechards:cookie_acorn"},"minRolls":1,"maxRolls":3},
+    {"chance":0.20,"output":{"item":"minecraft:cookie"},"minRolls":1,"maxRolls":2},
+    {"chance":0.01,"output":{"item":"orechards:cookie_leaves"}},
+    {"chance":0.01,"output":{"item":"orechards:cookie_log"}},
+    {"chance":0.01,"output":{"item":"orechards:cookie_sapling"}}
+  ]}

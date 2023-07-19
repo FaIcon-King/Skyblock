@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:gold_resin","count":2},
+  {"item":"orechards:gold_acorn","count":2}
+],
+  "input":{"item":"orechards:gold_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:gold_sapling"}}

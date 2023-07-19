@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:lead_resin","count":2},
+  {"item":"orechards:lead_acorn","count":2}
+],
+  "input":{"item":"orechards:lead_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:lead_sapling"}}

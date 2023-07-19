@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/manyullyn_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:manyullyn_log"},
+  "b":{"block":"orechards:manyullyn_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

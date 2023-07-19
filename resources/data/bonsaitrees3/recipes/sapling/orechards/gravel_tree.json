@@ -1,0 +1,18 @@
+ 
+{"type":"bonsaitrees3:sapling",
+  "conditions":[
+    {"type":"forge:mod_loaded", "modid":"orechards"}
+  ],
+  "sapling":{"item":"orechards:gravel_sapling"},
+  "drops":[
+    {"rolls":1,"chance":0.05,"result":{"item":"orechards:gravel_sapling"}},
+    {"rolls":1,"chance":0.75,"result":{"item":"minecraft:oak_log"}},
+    {"rolls":2,"chance":0.55,"result":{"item":"orechards:gravel_resin"}},
+    {"rolls":2,"chance":0.55,"result":{"item":"orechards:gravel_acorn"}},
+    {"rolls":3,"chance":0.2,"result":{"item":"minecraft:flint"}},
+    {"rolls":1,"chance":0.75,"result":{"item":"orechards:gravel_log"},"requiresSilkTouch":true},
+    {"rolls":2,"chance":0.2,"result":{"item":"orechards:gravel_leaves"},"requiresSilkTouch":true}
+  ],"compatibleSoilTags":["dirt",
+  "grass"]}
+
+

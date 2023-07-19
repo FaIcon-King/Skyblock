@@ -1,0 +1,44 @@
+
+["Configs for Orechards Mod"]
+	#Slight chance of drop from leaf decay for the respective tree
+	Leaves_Drop = ["minecraft:stick", "minecraft:string", "minecraft:stick", "minecraft:clay_ball", "minecraft:stick", "minecraft:flint", "minecraft:coal", "minecraft:iron_nugget", "minecraft:gold_nugget", "minecraft:stick", "minecraft:redstone", "minecraft:stick", "minecraft:bone_meal", "minecraft:cookie", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:quartz", "minecraft:quartz", "minecraft:glowstone_dust", "minecraft:stick", "minecraft:stick", "minecraft:stick", "mysticalagriculture:prosperity_shard", "minecraft:stick", "minecraft:stick", "minecraft:netherite_scrap", "tconstruct:manyullyn_nugget", "tconstruct:hepatizon_nugget"]
+	#####!!Game must be loaded and then restarted to fully apply changes!!####
+	# List of Ores, MUST be left in this configuration/format, add any additional at the end of the list
+	Ore_Types = ["dirt", "cottonwood", "petrified", "clay", "sand", "gravel", "coal", "iron", "gold", "lapis", "redstone", "diamond", "bone", "cookie", "bacon", "donut", "copper", "lead", "tin", "silver", "nickel", "emerald", "quartz", "netherrack", "glowstone", "cobalt", "ardite", "osmium", "prosperity", "moreium", "faiconium", "netherite", "manyullyn", "hepatizon"]
+	# Array List of Colors, make sure the Quantity in each list is identical or errors can occur.
+	Ore_Colors = [8608827, 16774655, 10526880, 12634339, 16711631, 13353676, 5131854, 12360064, 16576075, 1857478, 13120821, 7851771, 16382188, 16565087, 16539487, 16768609, 16751674, 10066377, 14937855, 13685989, 12833931, 2490222, 16711422, 10701386, 16776960, 2654932, 13713936, 9684443, 13884909, 6750351, 10426886, 5388595, 5973640, 1902119]
+	# Array List of how common each tree is 0 is lowest chance 5 is highest.
+	Ore_Rarity = [5, 2, 4, 2, 2, 2, 2, 2, 2, 1, 1, 0, 2, 3, 3, 3, 2, 2, 2, 1, 1, 0, 1, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+	"10 Add Orechard Trees to Scooped Island?" = false
+	#False will spawn only Dirt Resource Trees
+	"11 All Orechard Trees in Scooped Islands?" = true
+	#Range: 62 ~ 256
+	"12 Lowest Level for a Scooped Island to Generate?" = 165
+	#Range: 62 ~ 256
+	"13 Highest Level for a Scooped Island to Generate?" = 175
+	"14 Add Sky Block Outer Islands?" = true
+	#Range: -60 ~ 256
+	"15 Lowest Level for a Sky Block Outer Island?" = 50
+	#Range: -61 ~ 256
+	"16 Highest Level for a Sky Block Outer Island?" = 80
+	#Range: 0 ~ 1000
+	"17 Distance to Sky Block Outer Islands?" = 200
+	"01 Change Void into Sky Orechard?" = false
+	"02 Convert Plains to Orechard?" = false
+	"03 Add Sky Orechard Islands?" = false
+	#Minecraft Biomes:
+	#[minecraft:plains, minecraft:desert, minecraft:ice_spikes, minecraft:snowy_plains, minecraft:sunflower_plains, minecraft:old_growth_pine_taiga, minecraft:old_growth_birch_forest, minecraft:dark_forest, minecraft:birch_forest, minecraft:flower_forest, minecraft:forest, minecraft:swamp, minecraft:windswept_gravelly_hills, minecraft:windswept_hills, minecraft:savanna_plateau, minecraft:savanna, minecraft:snowy_taiga, minecraft:taiga, minecraft:old_growth_spruce_taiga, minecraft:eroded_badlands, minecraft:badlands, minecraft:bamboo_jungle, minecraft:sparse_jungle, minecraft:jungle, minecraft:windswept_savanna, minecraft:windswept_forest, minecraft:frozen_peaks, minecraft:snowy_slopes, minecraft:grove, minecraft:meadow, minecraft:wooded_badlands, minecraft:beach, minecraft:frozen_river, minecraft:river, minecraft:stony_peaks, minecraft:jagged_peaks, minecraft:deep_lukewarm_ocean, minecraft:lukewarm_ocean, minecraft:warm_ocean, minecraft:stony_shore, minecraft:snowy_beach, minecraft:ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean, minecraft:frozen_ocean, minecraft:deep_frozen_ocean, minecraft:mushroom_fields, minecraft:dripstone_caves, minecraft:lush_caves, minecraft:nether_wastes, minecraft:warped_forest, minecraft:crimson_forest, minecraft:soul_sand_valley, minecraft:basalt_deltas, minecraft:the_end, minecraft:end_highlands, minecraft:end_midlands]
+	"04 Biome to add Sky Orechard Islands?" = "minecraft:plains"
+	#False will spawn only Dirt Resource Trees this also affects Plains Orechards
+	"05 All Orechard Trees in Sky Orechard?" = true
+	#Range: 62 ~ 256
+	"06 Lowest Level for a Sky Orechard Island?" = 165
+	#Range: 62 ~ 256
+	"07 Highest Level for a Sky Orechard Island?" = 175
+	####The following settings only apply to Scooped Island Generation###
+	#These are chunks of the terrain ripped from the ground and placed as Islands in the Sky
+	"08 Add Scooped Islands?" = false
+	#Minecraft Biomes:
+	#[minecraft:plains, minecraft:desert, minecraft:ice_spikes, minecraft:snowy_plains, minecraft:sunflower_plains, minecraft:old_growth_pine_taiga, minecraft:old_growth_birch_forest, minecraft:dark_forest, minecraft:birch_forest, minecraft:flower_forest, minecraft:forest, minecraft:swamp, minecraft:windswept_gravelly_hills, minecraft:windswept_hills, minecraft:savanna_plateau, minecraft:savanna, minecraft:snowy_taiga, minecraft:taiga, minecraft:old_growth_spruce_taiga, minecraft:eroded_badlands, minecraft:badlands, minecraft:bamboo_jungle, minecraft:sparse_jungle, minecraft:jungle, minecraft:windswept_savanna, minecraft:windswept_forest, minecraft:frozen_peaks, minecraft:snowy_slopes, minecraft:grove, minecraft:meadow, minecraft:wooded_badlands, minecraft:beach, minecraft:frozen_river, minecraft:river, minecraft:stony_peaks, minecraft:jagged_peaks, minecraft:deep_lukewarm_ocean, minecraft:lukewarm_ocean, minecraft:warm_ocean, minecraft:stony_shore, minecraft:snowy_beach, minecraft:ocean, minecraft:deep_ocean, minecraft:cold_ocean, minecraft:deep_cold_ocean, minecraft:frozen_ocean, minecraft:deep_frozen_ocean, minecraft:mushroom_fields, minecraft:dripstone_caves, minecraft:lush_caves, minecraft:nether_wastes, minecraft:warped_forest, minecraft:crimson_forest, minecraft:soul_sand_valley, minecraft:basalt_deltas, minecraft:the_end, minecraft:end_highlands, minecraft:end_midlands]
+	"09 Biome to add Scooped Islands?" = "minecraft:plains"
+

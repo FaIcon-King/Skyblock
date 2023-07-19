@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "orechards:copper_acorn"
+  },
+  "result": "orechards:copper_acorn_roasted"
+}

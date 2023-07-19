@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/faiconium_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:faiconium_log"},
+  "b":{"block":"orechards:faiconium_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

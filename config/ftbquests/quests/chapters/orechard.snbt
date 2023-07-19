@@ -1,0 +1,306 @@
+{
+	id: "127A90E35F18DDB6"
+	group: "78D4BF743C1B72FD"
+	order_index: 0
+	filename: "orechard"
+	title: "Orechard"
+	icon: "orechards:iron_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Gold acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "5775A6B7AF4EAC0B"
+			tasks: [{
+				id: "4C7450E42F387E6B"
+				type: "item"
+				item: "orechards:gold_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Lapis acorns can be made by dying iron acorns blue."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "28660C05E6879F51"
+			tasks: [{
+				id: "69E2A649EDD46956"
+				type: "item"
+				item: "orechards:lapis_sapling"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["Redstone acorns can be made by dying iron acorns red."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "02F443DA9DCFFE73"
+			tasks: [{
+				id: "27D171B91D51B052"
+				type: "item"
+				item: "orechards:redstone_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: ["Copper acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "253EDC5365E6F960"
+			tasks: [{
+				id: "3564CF4567E1E379"
+				type: "item"
+				item: "orechards:copper_sapling"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["Diamond acorns can be made by surrounding lapis acorns with a thick layer of coal resin."]
+			dependencies: [
+				"771C64809C5DE759"
+				"28660C05E6879F51"
+			]
+			id: "5937F06D04D00A2F"
+			tasks: [{
+				id: "3D3EFE54037A8269"
+				type: "item"
+				item: "orechards:diamond_sapling"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["Smelting acorns from Delightful will turn them into coal acorns."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "771C64809C5DE759"
+			tasks: [{
+				id: "7A611C80FF9D675A"
+				type: "item"
+				item: "orechards:coal_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["Smelting gold acorns will remind them of the hell from whence they came, turning them into netherrack acorns."]
+			dependencies: ["5775A6B7AF4EAC0B"]
+			id: "20D91F4717909C31"
+			tasks: [{
+				id: "1BA22AC182D44F72"
+				type: "item"
+				item: "orechards:netherrack_sapling"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: ["Quartz acorns can be made by combining moreium acorns with netherrack resin."]
+			dependencies: [
+				"20D91F4717909C31"
+				"155E106BDDFF732C"
+			]
+			id: "1A27BD868FD68AC1"
+			tasks: [{
+				id: "58513F33CE13EBA9"
+				type: "item"
+				item: "orechards:quartz_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["Cobalt acorns can be made by combining iron acorns with lapis and netherrack resins."]
+			dependencies: [
+				"20D91F4717909C31"
+				"28660C05E6879F51"
+			]
+			id: "2E5B7A5B2E226BEE"
+			tasks: [{
+				id: "2A39ED4B494E94FA"
+				type: "item"
+				item: "orechards:cobalt_sapling"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["Netherite acorns can be made by surrounding diamond acorns with gold and netherrack resins."]
+			dependencies: [
+				"5937F06D04D00A2F"
+				"20D91F4717909C31"
+			]
+			id: "16E9BE398089D38C"
+			tasks: [{
+				id: "7BB8006423332AD5"
+				type: "item"
+				item: "orechards:netherite_sapling"
+			}]
+		}
+		{
+			title: "Amethyst Sapling"
+			x: 1.5d
+			y: 4.0d
+			description: ["Moreium acorns can be made by combining Delightful acorns with lapis and redstone resins."]
+			dependencies: [
+				"28660C05E6879F51"
+				"02F443DA9DCFFE73"
+			]
+			id: "155E106BDDFF732C"
+			tasks: [{
+				id: "601046EE226C202E"
+				type: "item"
+				item: "orechards:moreium_sapling"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			description: ["Emerald acorns can be made by coating a diamond acorn in lapis and gold resins."]
+			dependencies: [
+				"5937F06D04D00A2F"
+				"5775A6B7AF4EAC0B"
+			]
+			id: "273BA19D16D3825C"
+			tasks: [{
+				id: "2B26155D82CB30FC"
+				type: "item"
+				item: "orechards:emerald_sapling"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			description: ["Manyullyn acorns can be made by surrounding netherite acorns with cobalt resin."]
+			dependencies: [
+				"16E9BE398089D38C"
+				"2E5B7A5B2E226BEE"
+			]
+			id: "2E73E80C16172F5A"
+			tasks: [{
+				id: "3CB1E5FA55EA7902"
+				type: "item"
+				item: "orechards:manyullyn_sapling"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			description: ["Hepatizon acorns can be made by surrounding cobalt acorns with copper and quartz resins."]
+			dependencies: [
+				"2E5B7A5B2E226BEE"
+				"1A27BD868FD68AC1"
+				"253EDC5365E6F960"
+			]
+			id: "2AA1403CE88B4A83"
+			tasks: [{
+				id: "274A548D98E0BAD4"
+				type: "item"
+				item: "orechards:hepatizon_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["Tin acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "4F163C49A1BF4F5B"
+			tasks: [{
+				id: "1A5AF20301A7CA35"
+				type: "item"
+				item: "orechards:tin_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Nickel acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "5A0608EA09B47A3F"
+			tasks: [{
+				id: "4630B030ED8731F2"
+				type: "item"
+				item: "orechards:nickel_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Lead acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "250ACDB460C4D043"
+			tasks: [{
+				id: "0139E2699A44C864"
+				type: "item"
+				item: "orechards:lead_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: ["Glowstone acorns can be made by combining gold acorns with netherrack and quartz resins."]
+			dependencies: [
+				"1A27BD868FD68AC1"
+				"20D91F4717909C31"
+			]
+			id: "20156DF90FF057D6"
+			tasks: [{
+				id: "7FD91D622F62BCFB"
+				type: "item"
+				item: "orechards:glowstone_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["Silver acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "678FDB6C2F6C7B41"
+			tasks: [{
+				id: "3E72F5972C57AF39"
+				type: "item"
+				item: "orechards:silver_sapling"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["Osmium acorns can be made similarly to iron acorns."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "29735AE786699818"
+			tasks: [{
+				id: "79BF27D20A07E292"
+				type: "item"
+				item: "orechards:osmium_sapling"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			description: ["Prosperity acorns can be made by surrounding emerald acorns with diamond resin and prosperity shards."]
+			dependencies: ["273BA19D16D3825C"]
+			id: "77C0177996D0B634"
+			tasks: [{
+				id: "13F92DCAE3499101"
+				type: "item"
+				item: "orechards:prosperity_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Cottonwood acorns can be made by combining silkworms and regular acorns in a smithing table."]
+			dependencies: ["52C37E52FEBA08DA"]
+			id: "143AF80B311792AA"
+			tasks: [{
+				id: "4ABADD84DDCEB06D"
+				type: "item"
+				item: "orechards:cottonwood_sapling"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

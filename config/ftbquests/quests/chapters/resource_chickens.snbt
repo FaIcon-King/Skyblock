@@ -1,0 +1,825 @@
+{
+	id: "4E20FBD53996E0D1"
+	group: "78D4BF743C1B72FD"
+	order_index: 2
+	filename: "resource_chickens"
+	title: "Resource Chickens"
+	icon: "resourcechickens:iron_chicken_spawn_egg"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Blaze Chicken"
+			x: 0.5d
+			y: -0.5d
+			description: ["Give a chicken 16 blaze rods"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "59DC74D73398D05F"
+			tasks: [{
+				id: "673525348334A292"
+				type: "questsadditions:interaction"
+				title: "Interact with a Blaze Chicken"
+				icon: "resourcechickens:blaze_chicken_spawn_egg"
+				entity: "resourcechickens:blaze"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Bone Chicken"
+			x: 1.5d
+			y: 2.5d
+			description: ["Give a chicken 16 bones"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "04260657BE841A86"
+			tasks: [{
+				id: "7C744A160958BF2A"
+				type: "questsadditions:interaction"
+				title: "Interact with a Bone Chicken"
+				icon: "resourcechickens:bone_chicken_spawn_egg"
+				entity: "resourcechickens:bone"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Clay Chicken"
+			x: 1.0d
+			y: -4.5d
+			description: ["Give a chicken 16 clay balls"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "5D59B19536F1CB59"
+			tasks: [{
+				id: "0D2893B9A78C2F97"
+				type: "questsadditions:interaction"
+				title: "Interact with a Clay Chicken"
+				icon: "resourcechickens:clay_chicken_spawn_egg"
+				entity: "resourcechickens:clay"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Coal Chicken"
+			x: -7.0d
+			y: -5.5d
+			description: ["Give a chicken 16 coal"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "76466756985F786C"
+			tasks: [{
+				id: "50D1E0F8AFE6B2AF"
+				type: "questsadditions:interaction"
+				title: "Interact with a Coal Chicken"
+				icon: "resourcechickens:coal_chicken_spawn_egg"
+				entity: "resourcechickens:coal"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Copper Chicken"
+			x: -6.5d
+			y: -4.5d
+			description: ["Give a chicken 16 copper ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "265DAA521316476A"
+			tasks: [{
+				id: "0AD0210FDB7386A9"
+				type: "questsadditions:interaction"
+				title: "Interact with a Copper Chicken"
+				icon: "resourcechickens:copper_chicken_spawn_egg"
+				entity: "resourcechickens:copper"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Creeper Chimken"
+			x: 2.0d
+			y: 1.5d
+			description: ["Give a chicken 16 gunpowder"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "279873C68CFCD31B"
+			tasks: [{
+				id: "41841EE9861B6C76"
+				type: "questsadditions:interaction"
+				title: "Interact with a Creeper Chicken"
+				icon: "resourcechickens:creeper_chicken_spawn_egg"
+				entity: "resourcechickens:creeper"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Diamond Chicken"
+			x: -5.5d
+			y: -2.5d
+			description: ["Give a chicken 16 diamonds"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "2B5FDF5AFF215B2F"
+			tasks: [{
+				id: "237CD60F5335AB95"
+				type: "questsadditions:interaction"
+				title: "Interact with a Diamond Chicken"
+				icon: "resourcechickens:diamond_chicken_spawn_egg"
+				entity: "resourcechickens:diamond"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Emerald Chicken"
+			x: -8.5d
+			y: -2.5d
+			description: ["Give a chicken 16 emeralds"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "62CE688D99252E4D"
+			tasks: [{
+				id: "40641D4066AD16C0"
+				type: "questsadditions:interaction"
+				title: "Interact with an Emerald Chicken"
+				icon: "resourcechickens:emerald_chicken_spawn_egg"
+				entity: "resourcechickens:emerald"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Enderman Chicken"
+			x: 2.5d
+			y: 0.5d
+			description: ["Give a chicken 8 ender pearls"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "1FEF94FCB4313D77"
+			tasks: [{
+				id: "7A9A9C8F267FCBD2"
+				type: "questsadditions:interaction"
+				title: "Interact with an Enderman Chicken"
+				icon: "resourcechickens:enderman_chicken_spawn_egg"
+				entity: "resourcechickens:enderman"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Ghast Chicken"
+			x: 2.5d
+			y: -0.5d
+			description: ["Give a chicken 16 ghast tears"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "753A1AB9C7117890"
+			tasks: [{
+				id: "1873645063A47C99"
+				type: "questsadditions:interaction"
+				title: "Interact with a Ghast Chicken"
+				icon: "resourcechickens:ghast_chicken_spawn_egg"
+				entity: "resourcechickens:ghast"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Glowstone Chicken"
+			x: -6.0d
+			y: -3.5d
+			description: ["Give a chicken 16 glowstone dust"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "7E142B3FB9934CD4"
+			tasks: [{
+				id: "79E05301C5B705B3"
+				type: "questsadditions:interaction"
+				title: "Interact with a Glowstone Chicken"
+				icon: "resourcechickens:glowstone_chicken_spawn_egg"
+				entity: "resourcechickens:glowstone"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Gold Chicken"
+			x: -7.5d
+			y: -4.5d
+			description: ["Give a chicken 16 gold ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "2A5EC475B8BACA58"
+			tasks: [{
+				id: "5E1887F27C33D9FA"
+				type: "questsadditions:interaction"
+				title: "Interact with a Gold Chicken"
+				icon: "resourcechickens:gold_chicken_spawn_egg"
+				entity: "resourcechickens:gold"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Lapis Chicken"
+			x: -8.0d
+			y: -3.5d
+			description: ["Give a chicken 16 lapis lazuli"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "4D81185E20CE85E3"
+			tasks: [{
+				id: "099776649C9D8989"
+				type: "questsadditions:interaction"
+				title: "Interact with a Lapis Chicken"
+				icon: "resourcechickens:lapis_chicken_spawn_egg"
+				entity: "resourcechickens:lapis"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Lava Chicken"
+			x: 0.5d
+			y: -3.5d
+			description: [
+				"Lava eggs can be crafted with an egg and a lava bucket. You'll need 4 to make a lava chicken."
+				""
+				"Make sure there are no blocks in range when clicking the egg on the chicken. It'll place the fluid instead."
+			]
+			dependencies: ["64D631CB33832F2A"]
+			id: "044D08C172E278B0"
+			tasks: [{
+				id: "1CF4AE4044E6317C"
+				type: "questsadditions:interaction"
+				title: "Interact with a Lava Chicken"
+				icon: "resourcechickens:lava_chicken_spawn_egg"
+				entity: "resourcechickens:lava"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Leather Chicken"
+			x: 0.5d
+			y: 0.5d
+			description: ["Give a chicken 16 leather"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "71121985865A3E82"
+			tasks: [{
+				id: "1B3F650C5AA73CCE"
+				type: "questsadditions:interaction"
+				title: "Interact with a Leather Chicken"
+				icon: "resourcechickens:leather_chicken_spawn_egg"
+				entity: "resourcechickens:leather"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Log Chicken"
+			x: 1.5d
+			y: -5.5d
+			description: ["Give a chicken 16 oak logs"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "466923DE2715D277"
+			tasks: [{
+				id: "0767DB2A853F8826"
+				type: "questsadditions:interaction"
+				title: "Interact with a Log Chicken"
+				icon: "resourcechickens:log_chicken_spawn_egg"
+				entity: "resourcechickens:log"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Magma Chicken"
+			x: 1.5d
+			y: -0.5d
+			description: ["Give a chicken 16 magma cream"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "1E1BD303A6FE029F"
+			tasks: [{
+				id: "0C8606D65E243E61"
+				type: "questsadditions:interaction"
+				title: "Interact with a Magma Chicken"
+				icon: "resourcechickens:magma_chicken_spawn_egg"
+				entity: "resourcechickens:magma"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Ancient Chicken"
+			x: -6.5d
+			y: -2.5d
+			description: ["Give a chicken 16 netherite scrap"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "7E9CB9BC45BCB562"
+			tasks: [{
+				id: "605C7A4D5715EEB2"
+				type: "questsadditions:interaction"
+				title: "Interact with an Ancient Chicken"
+				icon: "resourcechickens:netherite_chicken_spawn_egg"
+				entity: "resourcechickens:netherite"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Obsidian Chicken"
+			x: 1.5d
+			y: -3.5d
+			description: ["Give a chicken 16 obsidian"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "2752438ED6F47DB5"
+			tasks: [{
+				id: "2C1169E3CD6A3E54"
+				type: "questsadditions:interaction"
+				title: "Interact with an Obsidian Chicken"
+				icon: "resourcechickens:obsidian_chicken_spawn_egg"
+				entity: "resourcechickens:obsidian"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Nether Quartz Chicken"
+			x: -7.5d
+			y: -2.5d
+			description: ["Give a chicken 16 nether quartz"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "0DD014D48F3F6AFC"
+			tasks: [{
+				id: "7C12747186CC0FC4"
+				type: "questsadditions:interaction"
+				title: "Interact with a Quartz Chicken"
+				icon: "resourcechickens:quartz_chicken_spawn_egg"
+				entity: "resourcechickens:quartz"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Redstone Chicken"
+			x: -7.0d
+			y: -3.5d
+			description: ["Give a chicken 16 redstone dust"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "36D146F14C0F9290"
+			tasks: [{
+				id: "7BABF0C041DDF35C"
+				type: "questsadditions:interaction"
+				title: "Interact with a Redstone Chicken"
+				icon: "resourcechickens:redstone_chicken_spawn_egg"
+				entity: "resourcechickens:redstone"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Sand Chicken"
+			x: 2.0d
+			y: -4.5d
+			description: ["Give a chicken 16 sand"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "672C19F15418DB38"
+			tasks: [{
+				id: "2BFE90E4939C4B0B"
+				type: "questsadditions:interaction"
+				title: "Interact with a Sand Chicken"
+				icon: "resourcechickens:sand_chicken_spawn_egg"
+				entity: "resourcechickens:sand"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Slime Chicken"
+			x: 1.5d
+			y: 0.5d
+			description: ["Give a chicken 16 slimeballs"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "259357F0DF463409"
+			tasks: [{
+				id: "511A8F637A7C9C6A"
+				type: "questsadditions:interaction"
+				title: "Interact with a Slime Chicken"
+				icon: "resourcechickens:slime_chicken_spawn_egg"
+				entity: "resourcechickens:slime"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Soul Sand Chicken"
+			x: 0.5d
+			y: -2.5d
+			description: ["Give a chicken 16 soul sand"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "40B3870E7BA631BC"
+			tasks: [{
+				id: "16989CB585B09696"
+				type: "questsadditions:interaction"
+				title: "Interact with a Soul Sand Chicken"
+				icon: "resourcechickens:soulsand_chicken_spawn_egg"
+				entity: "resourcechickens:soulsand"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "String Chicken"
+			x: 1.0d
+			y: 1.5d
+			description: ["Give a chicken 16 string"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "02077E658B1F24A1"
+			tasks: [{
+				id: "68BE4FA5F1964288"
+				type: "questsadditions:interaction"
+				title: "Interact with a String Chicken"
+				icon: "resourcechickens:spider_chicken_spawn_egg"
+				entity: "resourcechickens:spider"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Water Chicken"
+			x: 2.5d
+			y: -3.5d
+			description: [
+				"Water eggs can be crafted with an egg and a water bucket. You'll need 4 to make a water chicken."
+				""
+				"Make sure there are no blocks in range when clicking the egg on the chicken. It'll place the fluid instead."
+			]
+			dependencies: ["64D631CB33832F2A"]
+			id: "70E291AF29F99FDB"
+			tasks: [{
+				id: "603F50267FAFBB80"
+				type: "questsadditions:interaction"
+				title: "Interact with a Water Chicken"
+				icon: "resourcechickens:water_chicken_spawn_egg"
+				entity: "resourcechickens:water"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Experience Chicken"
+			x: 1.5d
+			y: -2.5d
+			description: ["Give a chicken 16 nuggets of experience from Create"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "6C98A1AE927B993B"
+			tasks: [{
+				id: "2E3FA1C4C3C83CEA"
+				type: "questsadditions:interaction"
+				title: "Interact with an Experience Chicken"
+				icon: "resourcechickens:xp_chicken_spawn_egg"
+				entity: "resourcechickens:xp"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Charged Certus Quartz Chicken"
+			x: -5.5d
+			y: -0.5d
+			description: ["Give a chicken 16 charged certus quartz"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "597F6C04EF2B5DF7"
+			tasks: [{
+				id: "7179017F9E6F73F0"
+				type: "questsadditions:interaction"
+				title: "Interact with a Charged Certus Chicken"
+				icon: "resourcechickens:ae_charged_quartz_chicken_spawn_egg"
+				entity: "resourcechickens:ae_charged_quartz"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Certus Quartz Chicken"
+			x: -6.5d
+			y: -0.5d
+			description: ["Give a chicken 16 certus quartz"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "284D23C8557FBC86"
+			tasks: [{
+				id: "01C29D1682A91E89"
+				type: "questsadditions:interaction"
+				title: "Interact with a Certus Chicken"
+				icon: "resourcechickens:ae_quartz_chicken_spawn_egg"
+				entity: "resourcechickens:ae_quartz"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "\"Aluminium\" Chicken"
+			x: -6.5d
+			y: 1.5d
+			description: ["Give a chicken 16 aluminum ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "74B2FCDBFABFE55F"
+			tasks: [{
+				id: "0B6FEE519ABE341C"
+				type: "questsadditions:interaction"
+				title: "Interact with an Aluminium Chicken"
+				icon: "resourcechickens:aluminium_chicken_spawn_egg"
+				entity: "resourcechickens:aluminium"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Elementium Chicken"
+			x: -2.0d
+			y: -2.5d
+			description: ["Give a chicken 16 elementium ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "312D87574D4B3CB8"
+			tasks: [{
+				id: "272CE5183AC8E964"
+				type: "questsadditions:interaction"
+				title: "Interact with an Elementium Chicken"
+				icon: "resourcechickens:elementium_chicken_spawn_egg"
+				entity: "resourcechickens:elementium"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Enderium Chicken"
+			x: -2.0d
+			y: -0.5d
+			description: ["Give a chicken 16 enderium ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "6DACD6890CEF8F3A"
+			tasks: [{
+				id: "28DAD9008F8698CE"
+				type: "questsadditions:interaction"
+				title: "Interact with an Enderium Chicken"
+				icon: "resourcechickens:enderium_chicken_spawn_egg"
+				entity: "resourcechickens:enderium"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Lead Chicken"
+			x: -7.5d
+			y: 1.5d
+			description: ["Give a chicken 16 lead ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "2EE1844730D8759B"
+			tasks: [{
+				id: "3AAF93B2A721FCEC"
+				type: "questsadditions:interaction"
+				title: "Interact with a Lead Chicken"
+				icon: "resourcechickens:lead_chicken_spawn_egg"
+				entity: "resourcechickens:lead"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Manasteel Chicken"
+			x: -2.5d
+			y: -3.5d
+			description: ["Give a chicken 16 manasteel ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "3E65C3CFC2BDBB1F"
+			tasks: [{
+				id: "5F854BD4DDCD1C79"
+				type: "questsadditions:interaction"
+				title: "Interact with a Manasteel Chicken"
+				icon: "resourcechickens:manasteel_chicken_spawn_egg"
+				entity: "resourcechickens:manasteel"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Nickel Chicken"
+			x: -8.0d
+			y: 0.5d
+			description: ["Give a chicken 16 nickel ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "120EECAD226159B7"
+			tasks: [{
+				id: "08D995984A9B2D5D"
+				type: "questsadditions:interaction"
+				title: "Interact with a Nickel Chicken"
+				icon: "resourcechickens:nickel_chicken_spawn_egg"
+				entity: "resourcechickens:nickel"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Osmium Chicken"
+			x: -6.0d
+			y: 0.5d
+			description: ["Give a chicken 16 osmium ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "04D470EA014CEEF9"
+			tasks: [{
+				id: "4EB8DFB260043CA8"
+				type: "questsadditions:interaction"
+				title: "Interact with an Osmium Chicken"
+				icon: "resourcechickens:osmium_chicken_spawn_egg"
+				entity: "resourcechickens:osmium"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Quartz Enriched Iron Chicken"
+			x: -2.5d
+			y: 0.5d
+			description: ["Give a chicken 16 quartz enriched iron"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "22943092D1749AC2"
+			tasks: [{
+				id: "590BAC4485EB3B04"
+				type: "questsadditions:interaction"
+				title: "Interact with a Quartz Enriched Iron Chicken"
+				icon: "resourcechickens:quartz_enriched_iron_chicken_spawn_egg"
+				entity: "resourcechickens:quartz_enriched_iron"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Signalum Chicken"
+			x: -3.0d
+			y: -0.5d
+			description: ["Give a chicken 16 signalum ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "3F60BFA3F4FEC76D"
+			tasks: [{
+				id: "11D00D00E08EB4C8"
+				type: "questsadditions:interaction"
+				title: "Interact with a Signalum Chicken"
+				icon: "resourcechickens:signalum_chicken_spawn_egg"
+				entity: "resourcechickens:signalum"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Silicon Chicken"
+			x: 2.5d
+			y: -2.5d
+			description: ["Give a chicken 16 silicon from Refined Storage"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "06C20F5BA5E23F29"
+			tasks: [{
+				id: "2E4C1BECDB93F6C9"
+				type: "questsadditions:interaction"
+				title: "Interact with a Silicon Chicken"
+				icon: "resourcechickens:silicon_chicken_spawn_egg"
+				entity: "resourcechickens:silicon"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Silver Chicken"
+			x: -7.0d
+			y: 0.5d
+			description: ["Give a chicken 16 silver ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "355BC82DEDC5F2F4"
+			tasks: [{
+				id: "632FAFA8AF9B3ADA"
+				type: "questsadditions:interaction"
+				title: "Interact with a Silver Chicken"
+				icon: "resourcechickens:silver_chicken_spawn_egg"
+				entity: "resourcechickens:silver"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Terrasteel Chicken"
+			x: -3.0d
+			y: -2.5d
+			description: ["Give a chicken 4 terrasteel ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "60B11166CD55EBED"
+			tasks: [{
+				id: "588EEC560E410286"
+				type: "questsadditions:interaction"
+				title: "Interact with a Terrasteel Chicken"
+				icon: "resourcechickens:terrasteel_chicken_spawn_egg"
+				entity: "resourcechickens:terrasteel"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Tin Chicken"
+			x: -7.0d
+			y: 2.5d
+			description: ["Give a chicken 16 tin ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "4C15BD5BA0D3B151"
+			tasks: [{
+				id: "28E5393316122004"
+				type: "questsadditions:interaction"
+				title: "Interact with a Tin Chicken"
+				icon: "resourcechickens:tin_chicken_spawn_egg"
+				entity: "resourcechickens:tin"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Uraninite Chicken"
+			x: -8.5d
+			y: -0.5d
+			description: ["Give a chicken 16 uraninite"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "5141182445B8FEE0"
+			tasks: [{
+				id: "063D31C49FA37948"
+				type: "questsadditions:interaction"
+				title: "Interact with a Uraninite Chicken"
+				icon: "resourcechickens:uraninite_chicken_spawn_egg"
+				entity: "resourcechickens:uraninite"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Uranium Chicken"
+			x: -7.5d
+			y: -0.5d
+			description: ["Give a chicken 16 uranium ingots"]
+			dependencies: ["64D631CB33832F2A"]
+			id: "207759C08203F765"
+			tasks: [{
+				id: "1047B4CED4C841E5"
+				type: "questsadditions:interaction"
+				title: "Interact with a Uranium Chicken"
+				icon: "resourcechickens:uranium_chicken_spawn_egg"
+				entity: "resourcechickens:uranium"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["Chickens have three stats, which you can see with The One Probe. These stats will increase in the offspring of two chickens of the same species, going up to 10 on each. They will increase how quickly your chickens produce resources, so it's important to breed chickens to 10/10/10 if you intend on using them for resource production."]
+			dependencies: ["64D631CB33832F2A"]
+			id: "1AA00E511075ABAE"
+			tasks: [{
+				id: "7C08A289A7779E01"
+				type: "checkmark"
+				title: "Important Note"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

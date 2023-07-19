@@ -1,0 +1,17 @@
+{"bookshelf:load_conditions":[
+  {"type":"bookshelf:item_exists","values":["orechards:gravel_sapling"]}
+],
+  "type":"botanypots:crop",
+  "seed":{"item":"orechards:gravel_sapling"},
+  "categories":["dirt"],
+  "growthTicks":1200,
+  "display":{"block":"orechards:gravel_sapling"},
+  "drops":[
+    {"chance":1.00,"output":{"item":"minecraft:oak_log"},"minRolls":1,"maxRolls":3},
+    {"chance":1.00,"output":{"item":"orechards:gravel_resin"},"minRolls":1,"maxRolls":3},
+    {"chance":0.75,"output":{"item":"orechards:gravel_acorn"},"minRolls":1,"maxRolls":3},
+    {"chance":0.20,"output":{"item":"minecraft:flint"},"minRolls":1,"maxRolls":2},
+    {"chance":0.01,"output":{"item":"orechards:gravel_leaves"}},
+    {"chance":0.01,"output":{"item":"orechards:gravel_log"}},
+    {"chance":0.01,"output":{"item":"orechards:gravel_sapling"}}
+  ]}

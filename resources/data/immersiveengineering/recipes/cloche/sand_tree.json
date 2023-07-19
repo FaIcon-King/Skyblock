@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:sand_resin","count":2},
+  {"item":"orechards:sand_acorn","count":2}
+],
+  "input":{"item":"orechards:sand_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:sand_sapling"}}

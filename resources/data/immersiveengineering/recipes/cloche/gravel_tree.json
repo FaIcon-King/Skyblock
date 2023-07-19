@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:gravel_resin","count":2},
+  {"item":"orechards:gravel_acorn","count":2}
+],
+  "input":{"item":"orechards:gravel_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:gravel_sapling"}}

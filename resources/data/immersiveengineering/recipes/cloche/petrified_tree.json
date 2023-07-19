@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:petrified_resin","count":2},
+  {"item":"orechards:petrified_acorn","count":2}
+],
+  "input":{"item":"orechards:petrified_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:petrified_sapling"}}

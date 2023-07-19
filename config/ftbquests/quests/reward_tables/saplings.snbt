@@ -1,0 +1,14 @@
+{
+	id: "35FDBF754C43434A"
+	order_index: 0
+	title: "Saplings"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:spruce_sapling", count: 4 }
+		{ item: "minecraft:oak_sapling", count: 4 }
+		{ item: "minecraft:birch_sapling", count: 4 }
+		{ item: "minecraft:jungle_sapling", count: 4 }
+		{ item: "minecraft:acacia_sapling", count: 4 }
+		{ item: "minecraft:dark_oak_sapling", count: 4 }
+	]
+}

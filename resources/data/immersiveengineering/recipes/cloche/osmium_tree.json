@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:osmium_resin","count":2},
+  {"item":"orechards:osmium_acorn","count":2}
+],
+  "input":{"item":"orechards:osmium_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:osmium_sapling"}}

@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:redstone_resin","count":2},
+  {"item":"orechards:redstone_acorn","count":2}
+],
+  "input":{"item":"orechards:redstone_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:redstone_sapling"}}

@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:ardite_resin","count":2},
+  {"item":"orechards:ardite_acorn","count":2}
+],
+  "input":{"item":"orechards:ardite_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:ardite_sapling"}}

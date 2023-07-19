@@ -1,0 +1,11 @@
+ {"type":"bonsaitrees3:sapling/orechards/diamond_tree",
+  "version":3,"ref":{
+  "a":{"block":"orechards:diamond_log"},
+  "b":{"block":"orechards:diamond_leaves"}
+},
+  "shape":[
+    ["     ","     ","bbbb "," bbb ","     ","     "],
+    ["  b  ","  bb ","bbbbb","bbbbb","     ","     "],
+    [" bbb "," bab ","bbabb","bbabb","  a  ","  a  "],
+    ["  b  "," bbb ","bbbbb","bbbbb","     ","     "],
+    ["     ","     ","bbbbb"," bbbb","     ","     "]]}

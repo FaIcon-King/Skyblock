@@ -1,0 +1,8 @@
+{"type":"immersiveengineering:cloche","results":[
+  {"item":"orechards:lapis_resin","count":2},
+  {"item":"orechards:lapis_acorn","count":2}
+],
+  "input":{"item":"orechards:lapis_sapling"},
+  "soil":{"item":"minecraft:dirt"},
+  "time":1200,
+  "render":{"type":"crop","block":"orechards:lapis_sapling"}}

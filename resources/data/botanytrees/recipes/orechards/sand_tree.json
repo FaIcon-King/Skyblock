@@ -1,0 +1,17 @@
+{"bookshelf:load_conditions":[
+  {"type":"bookshelf:item_exists","values":["orechards:sand_sapling"]}
+],
+  "type":"botanypots:crop",
+  "seed":{"item":"orechards:sand_sapling"},
+  "categories":["dirt"],
+  "growthTicks":1200,
+  "display":{"block":"orechards:sand_sapling"},
+  "drops":[
+    {"chance":1.00,"output":{"item":"minecraft:oak_log"},"minRolls":1,"maxRolls":3},
+    {"chance":1.00,"output":{"item":"orechards:sand_resin"},"minRolls":1,"maxRolls":3},
+    {"chance":0.75,"output":{"item":"orechards:sand_acorn"},"minRolls":1,"maxRolls":3},
+    {"chance":0.20,"output":{"item":"minecraft:stick"},"minRolls":1,"maxRolls":2},
+    {"chance":0.01,"output":{"item":"orechards:sand_leaves"}},
+    {"chance":0.01,"output":{"item":"orechards:sand_log"}},
+    {"chance":0.01,"output":{"item":"orechards:sand_sapling"}}
+  ]}

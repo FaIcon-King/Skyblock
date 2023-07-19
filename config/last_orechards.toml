@@ -1,0 +1,12 @@
+               [" DO NOT CHANGE THIS FILE"]
+  [" APPLY CHANGES TO: orechards-common.toml"]
+           [" Last Configs for Orechards Mod"]
+
+	Ore_Types = ["dirt", "cottonwood", "petrified", "clay", "sand", "gravel", "coal", "iron", "gold", "lapis", "redstone", "diamond", "bone", "cookie", "bacon", "donut", "copper", "lead", "tin", "silver", "nickel", "emerald", "quartz", "netherrack", "glowstone", "cobalt", "ardite", "osmium", "prosperity", "moreium", "faiconium", "netherite", "manyullyn", "hepatizon"]
+
+	Ore_Colors = [8608827, 16774655, 10526880, 12634339, 16711631, 13353676, 5131854, 12360064, 16576075, 1857478, 13120821, 7851771, 16382188, 16565087, 16539487, 16768609, 16751674, 10066377, 14937855, 13685989, 12833931, 2490222, 16711422, 10701386, 16776960, 2654932, 13713936, 9684443, 13884909, 6750351, 10426886, 5388595, 5973640, 1902119]
+
+	Leaves_Drop = ["minecraft:stick", "minecraft:string", "minecraft:stick", "minecraft:clay_ball", "minecraft:stick", "minecraft:flint", "minecraft:coal", "minecraft:iron_nugget", "minecraft:gold_nugget", "minecraft:stick", "minecraft:redstone", "minecraft:stick", "minecraft:bone_meal", "minecraft:cookie", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:stick", "minecraft:quartz", "minecraft:quartz", "minecraft:glowstone_dust", "minecraft:stick", "minecraft:stick", "minecraft:stick", "mysticalagriculture:prosperity_shard", "minecraft:stick", "minecraft:stick", "minecraft:netherite_scrap", "tconstruct:manyullyn_nugget", "tconstruct:hepatizon_nugget"]
+
+	Ore_Rarity = [5, 2, 4, 2, 2, 2, 2, 2, 2, 1, 1, 0, 2, 3, 3, 3, 2, 2, 2, 1, 1, 0, 1, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+

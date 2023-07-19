@@ -1,0 +1,571 @@
+{
+	id: "4F58914887860306"
+	group: "4C92E9F4EA033802"
+	order_index: 0
+	filename: "beginning_of_skyblock"
+	title: "Beginnings of Skyblock"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.0d
+			y: 0.0d
+			description: ["This is the first modpack I've ever even tried to make, so expect some bugs or missing recipes or whatnot. If you find anything at all you feel like needs changing, join the discord and let me know! Thanks for playing!"]
+			can_repeat: true
+			id: "0E0906B41CA68D6B"
+			tasks: [{
+				id: "21E30AF8FD993451"
+				type: "checkmark"
+				title: "My First Modpack!"
+			}]
+			rewards: [{
+				id: "7B1E82C2493303AF"
+				type: "command"
+				command: "/say Discord Link: https://discord.gg/TpPtdVpuzB"
+				player_command: false
+			}]
+		}
+		{
+			title: "Getting Wood"
+			x: -10.0d
+			y: 1.5d
+			subtitle: "Nothing like a little wood to start out your day"
+			description: [
+				"Every good modpack has an oak log quest."
+				"Also, here's some saplings for a different wood type, if you want."
+			]
+			dependencies: ["0E0906B41CA68D6B"]
+			id: "122511AA17DF85D5"
+			tasks: [{
+				id: "66BA1FB057D5A3E5"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "735F1491432F11BB"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3890476163629531978L
+			}]
+		}
+		{
+			title: "The Classic Skyblock Experience"
+			icon: "exnihilosequentia:string_mesh"
+			x: -10.0d
+			y: 3.0d
+			subtitle: "Never gets old"
+			description: [
+				"We're starting out with Ex Nihilo because I love sifting."
+				""
+				"Make a crook -> Break leaves -> Get a silkworm -> Place silkworm in leaves -> Break infested leaves with crook -> Use string to make a mesh -> Put the mesh in a sieve -> Profit"
+				""
+				"The barrel is used to make dirt. Just fill it with organic material, like saplings or leaves."
+			]
+			dependencies: ["122511AA17DF85D5"]
+			id: "2CA043647CB26A96"
+			tasks: [
+				{
+					id: "4B7E0C19D7D7FEE2"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:wooden_crook"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DF8AB1BE00ACB48"
+					type: "item"
+					item: "exnihilosequentia:silkworm"
+				}
+				{
+					id: "1FDB567CC086A6D6"
+					type: "item"
+					item: "exnihilosequentia:string_mesh"
+				}
+				{
+					id: "5F7E1DF602A3AD9A"
+					type: "item"
+					title: "Any #exnihilosequentia:sieves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:sieves"
+						}
+					}
+				}
+				{
+					id: "477288D3FD1E1E4D"
+					type: "item"
+					title: "Any #exnihilosequentia:barrels"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:barrels"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Getting into the Nitty Gritty"
+			icon: "exnihilosequentia:flint_mesh"
+			x: -10.0d
+			y: 4.5d
+			subtitle: "(Dirt Band)"
+			description: [
+				"Make a hammer and use the pebbles from sifting dirt to make cobblestone, crush that into gravel, and use that to make a flint mesh. This mesh will allow you to start getting ores."
+				""
+				"From here, the quest book will start splintering. There's a few resource generation mods. Feel free to use whatever floats your boat."
+				""
+				"(Unlocks the Classic Modded Skyblock chapter)"
+			]
+			dependencies: ["2CA043647CB26A96"]
+			id: "57BB6277DC3D32F7"
+			tasks: [
+				{
+					id: "0D6655E511A4A8DF"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 18L
+				}
+				{
+					id: "0C993DA2310B1A25"
+					type: "item"
+					item: "exnihilosequentia:flint_mesh"
+				}
+				{
+					id: "1B23216E7F0B224C"
+					type: "item"
+					title: "Any #exnihilosequentia:hammer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:hammer"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dirty Wood"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "This stuff grows on trees, yknow"
+			description: ["You can use the acorns that drop from trees and some dirt from the island or from barrels to make dirt acorns and then a dirt sapling. This it the start of Orechard, a mod centered around gathering resources using trees."]
+			hide_dependency_lines: true
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "3D6DE446698AB746"
+			tasks: [{
+				id: "778EF5F51BEB10F1"
+				type: "item"
+				item: "orechards:dirt_sapling"
+			}]
+		}
+		{
+			title: "Hard Wood"
+			x: -6.0d
+			y: 1.5d
+			subtitle: "This stuff also grows on trees"
+			description: ["You can use the pebbles you got from sifting and the acorns from Delightful to make petrified acorns, which make petrified saplings. This is a quicker way to get cobblestone."]
+			dependencies: ["3D6DE446698AB746"]
+			id: "3094922036867875"
+			tasks: [{
+				id: "048150CA0CA3A0A3"
+				type: "item"
+				item: "orechards:petrified_sapling"
+			}]
+		}
+		{
+			title: "Soft Wood?"
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Yes, even the most balanced material in the game grows on trees"
+			description: ["Using dirt and petrified resin, you can make a clay sapling. Clay is real useful."]
+			dependencies: ["3094922036867875"]
+			id: "1CCA653EFBF0C65D"
+			tasks: [{
+				id: "53B52AF9CD6A2099"
+				type: "item"
+				item: "orechards:clay_sapling"
+			}]
+		}
+		{
+			title: "Trees in a Block"
+			x: -4.5d
+			y: 1.5d
+			subtitle: "They're just lil' guys"
+			description: ["Now that you have clay you can make bonsai pots. These babies automatically grow lil versions of whatever tree sapling you put in them and give their drops."]
+			hide_dependency_lines: true
+			dependencies: ["1CCA653EFBF0C65D"]
+			id: "0A229A672C112B76"
+			tasks: [{
+				id: "00A1852EE81B8A6F"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+		}
+		{
+			title: "Automatic Bonsais"
+			icon: "minecraft:hopper"
+			x: -4.5d
+			y: 3.0d
+			subtitle: "Just a lil' automatic"
+			description: [
+				"Placing a wooden axe in a bonsai pot will automatically harvest the tree when it's full."
+				"Placing a hopper in the bonsai pot will automatically place items in the inventory below the bonsai pot."
+			]
+			dependencies: ["0A229A672C112B76"]
+			id: "7D969D9A7C46DCE9"
+			tasks: [
+				{
+					id: "3475D855C7D31638"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C874E6345521F47"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			title: "Harder Wood"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "**** it. Everything grows on trees."
+			description: [
+				"Using the iron ore pieces obtained by sifting gravel, you can craft acorns into iron acorns into an iron sapling."
+				""
+				"(Unlocks the Orechard chapter)"
+			]
+			dependencies: ["1CCA653EFBF0C65D"]
+			id: "52C37E52FEBA08DA"
+			tasks: [{
+				id: "0F5A30A137FA948B"
+				type: "item"
+				item: "orechards:iron_sapling"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			subtitle: "I love these things"
+			description: [
+				"Enchanting the axe with efficiency will cause the bonsai pots to grow even faster."
+				"Enchanting the axe with fortune will cause the bonsai pots to drop even more loot every cycle."
+				"You can also just use enchanted books. The boost also stacks with multiple enchanted books/axes."
+			]
+			dependencies: ["7D969D9A7C46DCE9"]
+			id: "51B05DEF53CC1ED2"
+			tasks: [{
+				id: "22AD6ACD8AD18648"
+				type: "checkmark"
+				title: "More Upgrades"
+			}]
+		}
+		{
+			title: "Chicken Stasis Chamber"
+			x: -3.0d
+			y: 13.0d
+			subtitle: "Sit. Good boy."
+			description: ["The chicken stasis chamber is the main way to automate chickens. Pick them up with your net and place them in, and once provided with seeds, the stasis chamber will automatically start producing that chicken's resource type and outputting it to the inventory beneath it."]
+			dependencies: ["6A8B782A7D8E6489"]
+			hide_details_until_startable: true
+			id: "4DCDDCA381812B58"
+			tasks: [{
+				id: "0BF5BE824C80CE24"
+				type: "item"
+				item: "resourcechickens:nest"
+			}]
+		}
+		{
+			title: "Your First Chickens"
+			x: -6.0d
+			y: 8.5d
+			subtitle: "Buckaw"
+			description: ["You can get seeds by sifting dirt. I'd recommend waiting until you can start a small wheat farm before getting into chickens. You'll need a lot of seeds."]
+			hide_dependency_lines: true
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "0B9D6A0EE0CCF2C5"
+			tasks: [{
+				id: "78D5F0B08335F0DC"
+				type: "item"
+				item: "excompressum:chicken_bait"
+			}]
+		}
+		{
+			title: "Hard Boiled"
+			icon: "minecraft:chicken_spawn_egg"
+			x: -6.0d
+			y: 10.0d
+			subtitle: "Superrrrr"
+			description: [
+				"Resource chickens are made by right clicking a vanilla chicken with the resource you wish to farm. The One Probe or JEI can tell you how many of the resource you will need."
+				""
+				"Note: Interact quests require you to right click on the entity in-world."
+			]
+			dependencies: ["0B9D6A0EE0CCF2C5"]
+			id: "700F99332217A2FE"
+			tasks: [{
+				id: "5F0824AAFB027471"
+				type: "questsadditions:interaction"
+				title: "Interact with a Chicken"
+				entity: "minecraft:chicken"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Up the Ladder"
+			icon: "resourcechickens:dirt_chicken_spawn_egg"
+			x: -6.0d
+			y: 11.5d
+			subtitle: "Cluck"
+			description: ["Dirt chickens require 16 dirt to be given to a chicken"]
+			dependencies: ["700F99332217A2FE"]
+			id: "6712346C048E1666"
+			tasks: [{
+				id: "0CEBFE6ABD8B1ECF"
+				type: "questsadditions:interaction"
+				title: "Interact with a Dirt Chicken"
+				icon: "resourcechickens:dirt_chicken_spawn_egg"
+				entity: "resourcechickens:dirt"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Iron Chicken Franky Shogun"
+			x: -6.0d
+			y: 13.0d
+			subtitle: "As Hard Boiled as they come"
+			description: [
+				"The Iron Chicken requires 16 iron to be used on a chicken."
+				""
+				"(Unlocks the Resource Chickens chapter)"
+			]
+			dependencies: ["6712346C048E1666"]
+			id: "64D631CB33832F2A"
+			tasks: [{
+				id: "44C9155EE0DCA7CC"
+				type: "questsadditions:interaction"
+				title: "Interact with an Iron Chicken"
+				icon: "resourcechickens:iron_chicken_spawn_egg"
+				entity: "resourcechickens:iron"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			title: "Pick em up"
+			x: -4.5d
+			y: 13.0d
+			subtitle: "Put em down"
+			description: ["The animal capture net lets you pick up chickens and place them in other places or into their \"nests\""]
+			hide_dependency_lines: true
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "6A8B782A7D8E6489"
+			tasks: [{
+				id: "342FB1C5D2929834"
+				type: "item"
+				item: {
+					id: "resourcechickens:animal_net"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Inferium"
+			icon: "mysticalagriculture:inferium_essence"
+			x: -11.5d
+			y: 10.0d
+			subtitle: "x1"
+			description: ["You can obtain inferium by either killing mobs or mining ore in the nether / end. "]
+			dependencies: ["0AAA4ED8053278AB"]
+			id: "1A3D7F380F86E639"
+			tasks: [{
+				id: "2B82720FCB2BE609"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 8L
+			}]
+		}
+		{
+			title: "Inferium Seeds"
+			x: -11.5d
+			y: 11.5d
+			subtitle: "I used the inferium to grow the inferium"
+			description: ["Inferium seeds give you a renewable and consistent source of inferium. They will produce more essence on higher tier soils"]
+			dependencies: ["1A3D7F380F86E639"]
+			id: "35B8F3F5D0D9BFAC"
+			tasks: [{
+				id: "1D29D01CF096D925"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			title: "Inferium Compression"
+			x: -11.5d
+			y: 13.0d
+			description: [
+				"The infusion crystal allows you to produce higher tier essences, which are needed for most seeds."
+				""
+				"(Unlocks the Mystical Agriculture chapter)"
+			]
+			dependencies: ["35B8F3F5D0D9BFAC"]
+			id: "1387795DB4DFF9AC"
+			tasks: [{
+				id: "187B0F0877E8E8EE"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Prosperity"
+			x: -10.0d
+			y: 8.5d
+			subtitle: "Grow and prosper, my child..."
+			description: ["Prosperity is needed to make a lot of base crafting materials. You can obtain it from sifting sand or from ore in the nether / end."]
+			hide_dependency_lines: true
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "4329982FE40F52F7"
+			tasks: [{
+				id: "19994DB7353A4D2F"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+				count: 4L
+			}]
+		}
+		{
+			title: "Fu...sion..."
+			icon: "mysticalagriculture:infusion_altar"
+			x: -10.0d
+			y: 10.0d
+			subtitle: "HA!"
+			description: ["The infusion altar is how you craft resource seeds. Place the pedestals in a circle around the altar, put the required items in the pedestals and altar, then give it a redstone signal."]
+			dependencies: ["4329982FE40F52F7"]
+			id: "642F4D788DB7BCA4"
+			tasks: [
+				{
+					id: "6DB157BC0F720DE5"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "46C53F1427DBDB4D"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+				}
+			]
+		}
+		{
+			title: "Soulium Dust"
+			x: -10.0d
+			y: 11.5d
+			subtitle: "Powdered regrets..."
+			description: ["Soulium dust can be obtained from soulium ore found in the nether. They're the first step to make seeds from mobs."]
+			dependencies: ["642F4D788DB7BCA4"]
+			id: "17752C47B1771DD6"
+			tasks: [{
+				id: "47FE0FE1B20E787E"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+				count: 6L
+			}]
+		}
+		{
+			title: "Soulium Dagger"
+			icon: {
+				id: "mysticalagriculture:soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.0d
+			y: 13.0d
+			subtitle: "Steel Soul"
+			description: ["The soulium dagger, when used as a weapon, will steal the souls of mobs you kill with it and store them in soul jars. Full soul jars are required to craft mob seeds."]
+			dependencies: ["17752C47B1771DD6"]
+			id: "7B5BDE72F66DD614"
+			tasks: [
+				{
+					id: "10250BCD149159AC"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:soulium_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2143BEEA8D89AC90"
+					type: "item"
+					item: "mysticalagriculture:soul_jar"
+				}
+			]
+		}
+		{
+			title: "Kill Some Mobs"
+			icon: "minecraft:rotten_flesh"
+			x: -11.5d
+			y: 8.5d
+			subtitle: "Morally Correct Murder"
+			hide_dependency_lines: true
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "0AAA4ED8053278AB"
+			tasks: [
+				{
+					id: "1BC5C9A97450E599"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+				}
+				{
+					id: "33E501A1186D8C46"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "5FB2620032BA214B"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "05E3CCCE6C6A8E70"
+					type: "item"
+					item: "minecraft:string"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

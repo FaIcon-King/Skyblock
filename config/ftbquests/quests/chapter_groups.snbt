@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "4C92E9F4EA033802", title: "Starting Out" }
+		{ id: "78D4BF743C1B72FD", title: "Resource Production" }
+	]
+}

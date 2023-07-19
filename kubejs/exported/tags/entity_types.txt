@@ -1,0 +1,1017 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 4, 2023, 4:17:47 PM
+
+#chicken_roost:getlivinglead
+- chicken_roost:a_chicken_mekanism_lead
+
+#supplementaries:cage_baby_catchable
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:goat
+- alexsmobs:crocodile?
+- alexsmobs:endergrade?
+- alexsmobs:gazelle?
+- alexsmobs:gorilla?
+- alexsmobs:komodo_dragon?
+- alexsmobs:raccoon?
+- alexsmobs:seal?
+- alexsmobs:warped_toad?
+- eanimod:enhanced_sheep?
+- eanimod:enhanced_cow?
+- eanimod:enhanced_llama?
+- eanimod:enhanced_pig?
+- eanimod:enhanced_mooshroom?
+
+#immersiveengineering:shaderbag/blacklist
+- minecraft:wither
+- minecraft:iron_golem
+
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+- minecraft:player
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#carryon:stacking_blacklist
+
+#forge:thechickenmagmacream
+- chicken_roost:a_chickenmagmacream
+
+#the_bumblezone:pollen_puff_can_pollinate
+- #productivebees:external_can_pollinate
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+- minecraft:glow_squid
+- minecraft:axolotl
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#forge:reflecting/preserve_owner
+- minecraft:fishing_bobber
+
+#mekanism:hurtable_vehicles
+- minecraft:boat
+- minecraft:minecart
+- minecraft:chest_minecart
+- minecraft:command_block_minecart
+- minecraft:furnace_minecart
+- minecraft:hopper_minecart
+- minecraft:spawner_minecart
+- minecraft:tnt_minecart
+- biomesoplenty:boat?
+- byg:boat?
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- minecraft:goat
+- quark:frog?
+
+#tconstruct:piggybackpack_blacklist
+
+#forge:thechickenglowberries
+- chicken_roost:a_chickenglowberries
+
+#forge:small_armor
+- #forge:slimes
+
+#industrialforegoing:mob_duplicator_blacklist
+
+#delightful:fatty_animals
+- minecraft:cat
+- minecraft:wolf
+- minecraft:cod
+- minecraft:salmon
+- minecraft:cow
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:fox
+- minecraft:glow_squid
+- minecraft:squid
+- minecraft:goat
+- minecraft:hoglin
+- minecraft:horse
+- minecraft:llama
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:pig
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:tropical_fish
+- minecraft:turtle
+- ecologics:camel?
+- ecologics:penguin?
+- ecologics:squirrel?
+- goodall:dumbo_octopus?
+- goodall:manatee?
+- goodall:red_deer?
+- goodall:seal?
+- goodall:white_tailed_deer?
+- neapolitan:chimpanzee?
+- naturalist:bear?
+- naturalist:boar?
+- naturalist:deer?
+- naturalist:elephant?
+- naturalist:giraffe?
+- naturalist:hippo?
+- naturalist:lion?
+- naturalist:rhino?
+- naturalist:zebra?
+- duckling:duck?
+- duckling:quackling?
+- buzzier_bees:moobloom?
+- buzzier_bees:grizzly_bear?
+- fishofthieves:ancientscale?
+- fishofthieves:battlegill?
+- fishofthieves:devilfish?
+- fishofthieves:islehopper?
+- fishofthieves:plentifin?
+- fishofthieves:pondie?
+- fishofthieves:splashtail?
+- fishofthieves:stormfish?
+- fishofthieves:wildsplash?
+- fishofthieves:wrecker?
+- ars_nouveau:starbuncle?
+- aqcaracal:caracal?
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:glow_item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- minecraft:command_block_minecart
+- minecraft:marker
+- minecraft:area_effect_cloud
+- minecraft:evoker_fangs
+- minecraft:leash_knot
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#forge:thechickenghast
+- chicken_roost:a_chickenghasttear
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+- thermal:blizz
+- mekanism:robit
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#forge:thechickencarrot
+- chicken_roost:a_chickencarrot
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit
+
+#mob_grinding_utils:no_dirt_spawn
+- alexmobs:farseer?
+
+#industrialforegoing:mob_crusher_blacklist
+- minecraft:ender_dragon
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- thermal:basalz_projectile
+- thermal:blitz_projectile
+- thermal:blizz_projectile
+- mekanism:flame
+- supplementaries:rope_arrow
+- supplementaries:brick_projectile
+- archers_paradox:explosive_arrow
+- archers_paradox:quartz_arrow
+- archers_paradox:diamond_arrow
+- archers_paradox:prismarine_arrow
+- archers_paradox:slime_arrow
+- archers_paradox:ender_arrow
+- archers_paradox:training_arrow
+- archers_paradox:challenge_arrow
+- archers_paradox:phantasmal_arrow
+- archers_paradox:shulker_arrow
+- archers_paradox:blaze_arrow
+- archers_paradox:frost_arrow
+- archers_paradox:lightning_arrow
+- archers_paradox:verdant_arrow
+- archers_paradox:spore_arrow
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- productivebees:configurable_bee
+- productivebees:dye_bee
+- productivebees:lumber_bee
+- productivebees:quarry_bee
+- productivebees:rancher_bee
+- productivebees:collector_bee
+- productivebees:hoarder_bee
+- productivebees:farmer_bee
+- productivebees:cupid_bee
+- productivebees:creeper_bee
+- productivebees:ashy_mining_bee
+- productivebees:blue_banded_bee
+- productivebees:green_carpenter_bee
+- productivebees:yellow_black_carpenter_bee
+- productivebees:chocolate_mining_bee
+- productivebees:digger_bee
+- productivebees:leafcutter_bee
+- productivebees:mason_bee
+- productivebees:neon_cuckoo_bee
+- productivebees:nomad_bee
+- productivebees:reed_bee
+- productivebees:resin_bee
+- productivebees:sweat_bee
+- productivebees:bumble_bee
+
+#forge:thechickenmelon
+- chicken_roost:a_chickenmelon
+
+#forge:creepers
+- minecraft:creeper
+
+#forge:thechickensweetberries
+- chicken_roost:a_chickensweetberries
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#productivebees:ranchables
+- minecraft:cow
+- minecraft:donkey
+- minecraft:horse
+- minecraft:llama
+- minecraft:goat
+- minecraft:sheep
+- dyenamics:sheep?
+
+#ars_nouveau:drygmy_blacklist
+- minecraft:iron_golem
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- supplementaries:rope_arrow
+- archers_paradox:explosive_arrow
+- archers_paradox:quartz_arrow
+- archers_paradox:diamond_arrow
+- archers_paradox:prismarine_arrow
+- archers_paradox:slime_arrow
+- archers_paradox:ender_arrow
+- archers_paradox:training_arrow
+- archers_paradox:challenge_arrow
+- archers_paradox:phantasmal_arrow
+- archers_paradox:shulker_arrow
+- archers_paradox:blaze_arrow
+- archers_paradox:frost_arrow
+- archers_paradox:lightning_arrow
+- archers_paradox:verdant_arrow
+- archers_paradox:spore_arrow
+
+#forge:thechickenspidereye
+- chicken_roost:a_chickenspidereye
+
+#ars_nouveau:blink_blacklisted
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#forge:thechickentintedglass
+- chicken_roost:a_chickentintedglass
+
+#productivebees:external_can_pollinate
+- #productivebees:solitary_bees
+
+#ars_nouveau:magic_find
+- ars_nouveau:starbuncle
+- ars_nouveau:drygmy
+- ars_nouveau:whirlisprig
+- ars_nouveau:bookwyrm
+- ars_nouveau:wixie
+
+#delightful:drops_acorn
+- ecologics:squirrel?
+
+#ftbchunks:entity_interact_whitelist
+- corpse:corpse?
+
+#forge:bosses
+- minecraft:ender_dragon
+- minecraft:wither
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- thermal:blizz
+- mekanism:robit
+
+#ars_nouveau:spell_can_hit
+
+#carryon:stacking_whitelist
+
+#productivebees:animals
+- #productivebees:ranchables
+- minecraft:cat
+- minecraft:chicken
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:hoglin
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:turtle
+- minecraft:wolf
+
+#mob_grinding_utils:no_spawn
+
+#forge:thechickenapple
+- chicken_roost:a_chickenapple
+
+#forge:roost_prismarineshard
+- chicken_roost:a_chicken_prismarine_shard
+
+#forge:vanillachicken
+- minecraft:chicken
+
+#forge:thechickensnow
+- chicken_roost:a_chickensnow
+
+#ars_nouveau:portal_blacklisted
+
+#c:bosses
+- botania:doppleganger
+
+#forge:thechickensponge
+- chicken_roost:a_chickensponge
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#forge:thechickenblazepowder
+- chicken_roost:a_chickenblazepowder
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#forge:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:zombie_villager
+
+#pneumaticcraft:vacuum_trap_blacklisted
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#forge:illagers
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:vindicator
+- minecraft:witch
+
+#ars_nouveau:disintegration_whitelist
+
+#carryon:entity_whitelist
+
+#productivebees:solitary_bees
+- productivebees:ashy_mining_bee
+- productivebees:blue_banded_bee
+- productivebees:green_carpenter_bee
+- productivebees:yellow_black_carpenter_bee
+- productivebees:chocolate_mining_bee
+- productivebees:digger_bee
+- productivebees:leafcutter_bee
+- productivebees:mason_bee
+- productivebees:neon_cuckoo_bee
+- productivebees:nomad_bee
+- productivebees:reed_bee
+- productivebees:resin_bee
+- productivebees:sweat_bee
+- productivebees:bumble_bee
+
+#forge:roost/chickensbreed
+- chicken_roost:a_chicken_granit
+- chicken_roost:a_chicken_osmium
+- chicken_roost:a_chicken_mekanism_uranium
+- chicken_roost:a_chicken_redstone
+- chicken_roost:a_chicken_aluminium
+- chicken_roost:a_chicken_basalt
+- chicken_roost:a_chicken_copper
+- chicken_roost:a_chicken_clay
+- chicken_roost:a_chickenblazepowder
+- chicken_roost:a_chicken_diorite
+- chicken_roost:a_chicken_gravel
+- chicken_roost:a_chicken_netherrack
+- chicken_roost:a_chicken_gold
+- chicken_roost:a_chicken_blaze_rod
+- chicken_roost:a_chicken_yellorium
+- chicken_roost:a_chicken_slime
+- chicken_roost:a_chicken_diamond
+- chicken_roost:a_chicken_lapis
+- chicken_roost:a_chicken_iron
+- chicken_roost:a_chicken_tungsten
+- chicken_roost:a_chicken_andersite
+- chicken_roost:a_chicken_coal
+- chicken_roost:a_chicken_refinediron
+- chicken_roost:a_chicken_stone
+- chicken_roost:a_chicken_adamantium
+- chicken_roost:a_chicken_cobble
+- chicken_roost:a_chicken_obsidian
+- chicken_roost:a_chickenmagmacream
+
+#supplementaries:eats_fodder
+- minecraft:pig?
+- minecraft:cow?
+- minecraft:sheep?
+- minecraft:chicken?
+- minecraft:goat?
+- minecraft:mooshroom?
+- autumnity:snail?
+- alexsmobs:raccoon?
+
+#supplementaries:tickable_when_captured
+- minecraft:endermite?
+- feywild:spring_pixie?
+- feywild:autumn_pixie?
+- feywild:summer_pixie?
+- feywild:winter_pixie?
+- alexsmobs:mimicube?
+- iceandfire:pixie?
+- druidcraft:lunar_moth?
+- druidcraft:dreadfish?
+
+#forge:thechickenrotten
+- chicken_roost:a_chickenrotten
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#supplementaries:flute_pet
+- minecraft:horse?
+- minecraft:llama?
+- minecraft:mule?
+- minecraft:donkey?
+- minecraft:fox?
+
+#tconstruct:killagers
+- #forge:villagers
+- #forge:illagers
+- minecraft:iron_golem
+- minecraft:ravager
+
+#forge:reflecting/blacklist
+
+#supplementaries:jar_catchable
+- minecraft:slime?
+- minecraft:bee?
+- minecraft:magma_cube?
+- feywild:spring_pixie?
+- feywild:autumn_pixie?
+- feywild:summer_pixie?
+- feywild:winter_pixie?
+- bettermushroom:mushrooms_spores?
+- untamedwilds:tarantula?
+- wyrmroost:coin_dragon?
+- fantasy:unicorn?
+- alexsmobs:enderiophage?
+- iceandfire:pixie?
+- alexsmobs:fly?
+- alexsmobs:hummingbird?
+- alexsmobs:cockroach?
+- terraincognita:butterfly?
+- buzzierbees:honey_slime?
+- mysticalworld:frog?
+- mysticalworld:beetle?
+- mysticalworld:silkworm?
+- druidcraft:lunar_moth?
+- druidcraft:dreadfish?
+- betterendforge:end_slime?
+- betterendforge:dragonfly?
+- betterendforge:silk_moth?
+- savageandravage:creepie?
+- betteranimalsplus:butterfly?
+- whisperwoods:moth?
+- fins:river_pebble_snail?
+- tconstruct:sky_slime?
+- twilightforest:maze_slime?
+- biomemakeover:dragonfly?
+- naturalist:firefly?
+- cnb:sporeling?
+- crittersandcompanions:dragonfly?
+- crittersandcompanions:leaf_insect?
+- alexsmobs:cockroach?
+- alexsmobs:leafcutter_ant?
+- biomemakeover:rootling?
+- naturalist:butterfly?
+- mushlings:mushling?
+- quark:crab?
+- quark:frog?
+- sprout:bounce_bug?
+- unusualend:ender_firefly?
+- naturalist:caterpillar?
+
+#ftbquests:no_loot_crates
+
+#forge:thechickenbeetroot
+- chicken_roost:a_chickenbeetroot
+
+#chickenroost:chicken
+
+#supplementaries:jar_baby_catchable
+- minecraft:rabbit
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#carryon:entity_blacklist
+- ars_nouveau:whirlisprig
+- ars_nouveau:familiar_whirlisprig
+- ars_nouveau:familiar_drygmy
+- ars_nouveau:familiar_wixie
+- ars_nouveau:familiar_bookwyrm
+- ars_nouveau:wilden_boss
+- ars_nouveau:familiar_starbuncle
+
+#forge:thechickenstring
+- chicken_roost:a_chicken_string
+
+#forge:thechickennetherite
+- chicken_roost:a_chickennetherite
+
+#pneumaticcraft:omnihopper_blacklisted
+- minecraft:villager
+
+#forge:thechickenfeather
+- chicken_roost:a_chicken_feather
+
+#mob_grinding_utils:no_swab
+- minecraft:wither
+- minecraft:ender_dragon
+
+#ars_nouveau:disintegration_blacklist
+
+#hexcasting:sticky_teleporters
+- create:contraption?
+- create:stationary_contraption?
+- create:gantry_contraption?
+- create:carriage_contraption?
+- minecraft:pig
+- minecraft:strider
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:mule
+- minecraft:donkey
+- minecraft:llama
+- minecraft:trader_llama
+
+#tcintegrations:elemental_severing_mods
+- minecraft:wither_skeleton
+- minecraft:skeleton
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:drowned
+- minecraft:creeper
+- botania:doppleganger?
+
+#supplementaries:cage_catchable
+- minecraft:slime?
+- minecraft:bee?
+- minecraft:frog?
+- minecraft:allay?
+- minecraft:magma_cube?
+- minecraft:endermite?
+- minecraft:parrot?
+- minecraft:rabbit?
+- minecraft:cat?
+- minecraft:chicken?
+- minecraft:bat?
+- minecraft:fox?
+- minecraft:ocelot?
+- ecologics:lizard?
+- feywild:spring_pixie?
+- feywild:autumn_pixie?
+- feywild:summer_pixie?
+- feywild:winter_pixie?
+- eanimod:enhanced_chicken?
+- eanimod:enhanced_rabbit?
+- quark:foxhound?
+- bettermushroom:shroomie?
+- bettermushroom:shroomie_eater?
+- bettermushroom:mushrooms_spores?
+- untamedwilds:softshell_turtle?
+- untamedwilds:tortoise?
+- untamedwilds:tarantula?
+- wyrmroost:lesser_desertwyrm?
+- wyrmroost:roost_stalker?
+- wyrmroost:coin_dragon?
+- infernalexp:voline?
+- infernalexp:shroomloin?
+- kobolds:kobold_zombie?
+- kobolds:kobold_child?
+- fins:mudhorse?
+- alexsmobs:raccoon?
+- alexsmobs:mungus?
+- alexsmobs:tasmanian_devil?
+- alexsmobs:enderiophage?
+- alexsmobs:platypus?
+- alexsmobs:crow?
+- alexsmobs:mimicube?
+- iceandfire:pixie?
+- alexsmobs:fly?
+- alexsmobs:hummingbird?
+- alexsmobs:cockroach?
+- terraincognita:butterfly?
+- buzzierbees:honey_slime?
+- mysticalworld:frog?
+- mysticalworld:beetle?
+- mysticalworld:silkworm?
+- druidcraft:lunar_moth?
+- druidcraft:dreadfish?
+- swampexpansion:slabfish?
+- endergetic:puff_bug?
+- betterendforge:end_slime?
+- betterendforge:dragonfly?
+- betterendforge:silk_moth?
+- savageandravage:creepie?
+- betteranimalsplus:butterfly?
+- whisperwoods:moth?
+- fins:river_pebble_snail?
+- tconstruct:sky_slime?
+- twilightforest:maze_slime?
+- alexsmobs:roadrunner?
+- alexsmobs:rattlesnake?
+- alexsmobs:lobster?
+- alexsmobs:capuchin_monkey?
+- mysticalworld:silver_fox?
+- mysticalworld:sprout?
+- mysticalworld:endermini?
+- mysticalworld:lava_cat?
+- mysticalworld:owl?
+- mysticalworld:hell_sprout?
+- quark:crab?
+- quark:foxhound?
+- quark:stoneling?
+- quark:frog?
+- rats:rat?
+- rats:piper?
+- rats:plague_doctor?
+- rats:black_death?
+- rats:plague_cloud?
+- rats:plague_beast?
+- rats:rat_king?
+- rats:demon_rat?
+- rats:ratlantean_spirit?
+- rats:ratlantean_automation?
+- rats:feral_ratlantean?
+- rats:neo_ratlantean?
+- rats:pirat?
+- rats:ghost_pirat?
+- rats:dutchrat?
+- rats:ratfish?
+- rats:ratlantean_ratbot?
+- rats:rat_baron?
+- goblintraders:goblin_trader?
+- goblintraders:vein_goblin_trader?
+- autumnity:snail?
+- betteranimalsplus:lammergeier?
+- betteranimalsplus:songbird?
+- betteranimalsplus:pheasant?
+- betteranimalsplus:squirrel?
+- betteranimalsplus:badger?
+- betteranimalsplus:turkey?
+- exoticbirds:roadrunner?
+- exoticbirds:hummingbird?
+- exoticbirds:woodpecker?
+- exoticbirds:kingfisher?
+- exoticbirds:toucan?
+- exoticbirds:macaw?
+- exoticbirds:magpie?
+- exoticbirds:kiwi?
+- exoticbirds:owl?
+- exoticbirds:gouldianfinch?
+- exoticbirds:gull?
+- exoticbirds:pigeon?
+- exoticbirds:penguin?
+- exoticbirds:duck?
+- exoticbirds:booby?
+- exoticbirds:cardinal?
+- exoticbirds:bluejay?
+- exoticbirds:robin?
+- exoticbirds:kookaburra?
+- exoticbirds:budgerigar?
+- exoticbirds:cockatoo?
+- swampexpansion:slabfish?
+- betteranimalsplus:horseshoecrab?
+- betteranimalsplus:crab?
+- whisperwoods:wisp?
+- undergarden:muncher?
+- undergarden:scintling?
+- undergarden:rotling?
+- undergarden:sploogie?
+- dungeonsmod:crow?
+- dungeonsmod:anthermite?
+- pandoras_creatures:crab?
+- twilightforest:raven?
+- twilightforest:bunny?
+- twilightforest:penguin?
+- twilightforest:tiny_bird?
+- twilightforest:squirrel?
+- twilightforest:kobold?
+- twilightforest:death_tome?
+- environmental:duck?
+- environmental:cardinal?
+- environmental:fennec_fox?
+- environmental:slabfish?
+- environmental:penguin?
+- fins:flatback_leaf_snail?
+- fins:penglil?
+- fins:river_pebble_snail?
+- fins:siderol_whiskered_snail?
+- fins:red_bull_crab?
+- fins:white_bull_crab?
+- habitat:pooka?
+- habitat:passerine?
+- biomemakeover:dragonfly?
+- alexsmobs:seagull?
+- alexsmobs:toucan?
+- alexsmobs:jerboa?
+- alexsmobs:jerboa?
+- alexsmobs:potoo?
+- alexsmobs:flutter?
+- alexsmobs:rain_frog?
+- alexsmobs:sugar_glider?
+- naturalist:bluejay?
+- naturalist:canary?
+- naturalist:cardinal?
+- naturalist:robin?
+- naturalist:vulture?
+- alexsmobs:crow?
+- alexsmobs:toucan?
+- alexsmobs:seagull?
+- alexsmobs:bald_eagle?
+- biomemakeover:owl?
+- ecologics:penguin?
+- winteroverhaul:robin?
+- untitledduckmod:duck?
+- duckling:duck?
+- goblintraders:goblin_trader?
+- goblintraders:vein_goblin_trader?
+- sprout:elephant?
+- alexsmobs:jerboa?
+- hedgehog:hedgehog?
+- cnb:lizard?
+- cutehermitcrabs:hermit_crab?
+- ecologics:coconut_crab?
+- biomemakeover:scuttler?
+- ars_nouveau:starbuncle?
+- ars_nouveau:whirlisprig?
+
+#forge:roost/livingchicken
+- chicken_roost:a_chicken_char_coal
+- chicken_roost:a_chicken_granit
+- chicken_roost:a_chicken_osmium
+- chicken_roost:a_chicken_mekanism_uranium
+- chicken_roost:a_chicken_sugar
+- chicken_roost:a_chicken_aluminium
+- chicken_roost:a_chicken_copper
+- chicken_roost:a_chicken_clay
+- chicken_roost:a_chicken_botania_terrasteel
+- chicken_roost:ghost_chicken
+- chicken_roost:a_chicken_ender_eye
+- chicken_roost:a_chicken_diorite
+- chicken_roost:a_chicken_gravel
+- chicken_roost:a_chicken_netherrack
+- chicken_roost:a_chicken_blizz
+- chicken_roost:a_chicken_botania_elementium
+- chicken_roost:a_chicken_gold
+- chicken_roost:a_chicken_blaze_rod
+- chicken_roost:a_chicken_botania_livingrock
+- chicken_roost:a_chicken_cinnabar
+- chicken_roost:a_chicken_yellorium
+- chicken_roost:a_chicken_zinc
+- chicken_roost:a_chicken_slime
+- chicken_roost:a_chicken_blitz
+- chicken_roost:a_chicken_ink
+- chicken_roost:a_chicken_nether_brick
+- chicken_roost:a_chicken_diamond
+- chicken_roost:a_chicken_lapis
+- chicken_roost:a_chicken_nautilus_shell
+- chicken_roost:a_chickentintedglass
+- chicken_roost:a_chicken_niter
+- chicken_roost:a_chicken_queen_slime
+- chicken_roost:a_chicken_andersite
+- chicken_roost:a_chicken_jungle_wood
+- chicken_roost:a_chicken_prismarine_shard
+- chicken_roost:a_chicken_birchwood
+- chicken_roost:a_chicken_apatite
+- chicken_roost:a_chickenapple
+- chicken_roost:a_chicken_leather
+- chicken_roost:a_chicken_string
+- chicken_roost:a_chicken_wool
+- chicken_roost:a_chicken_bone_meal
+- chicken_roost:a_chicken_botania_manasteel
+- chicken_roost:a_chicken_coal
+- chicken_roost:a_chicken_flint
+- chicken_roost:a_chicken_nickel
+- chicken_roost:a_chicken_constantan
+- chicken_roost:a_chicken_refinediron
+- chicken_roost:a_chicken_warped_stem
+- chicken_roost:a_chicken_cobald
+- chicken_roost:a_chicken_tnt
+- chicken_roost:a_chicken_vibranium
+- chicken_roost:a_chicken_feather
+- chicken_roost:a_chicken_stone
+- chicken_roost:a_chicken_chrome
+- chicken_roost:a_chicken_acacia_wood
+- chicken_roost:a_chicken_adamantium
+- chicken_roost:a_chicken_chorus_fruit
+- chicken_roost:a_chicken_platinum
+- chicken_roost:a_chicken_amethyst_shard
+- chicken_roost:a_chicken_slimesteel
+- chicken_roost:a_chicken_glass
+- chicken_roost:a_chickenmelon
+- chicken_roost:a_chicken_obsidian
+- chicken_roost:a_chicken_dark_oak
+- chicken_roost:a_chicken_ae_certus_quartz
+- chicken_roost:a_chicken_rabbit_hide
+- chicken_roost:a_chicken_iridium
+- chicken_roost:a_chickenmagmacream
+- chicken_roost:a_chickencarrot
+- chicken_roost:a_chicken_hepatizon
+- chicken_roost:a_chicken_signalum
+- chicken_roost:a_chicken_silver
+- chicken_roost:a_chicken_tungstensteel
+- chicken_roost:a_chicken_tar
+- chicken_roost:a_chickenrotten
+- chicken_roost:a_chicken_crimston_stem
+- chicken_roost:a_chicken_nether_star
+- chicken_roost:a_chickensponge
+- chicken_roost:a_chickenglowberries
+- chicken_roost:a_chicken_sprucewood
+- chicken_roost:a_chicken_redstone
+- chicken_roost:a_chicken_mekanism_steel
+- chicken_roost:a_chicken_basalt
+- chicken_roost:a_chicken_basalz
+- chicken_roost:a_chicken_invar
+- chicken_roost:a_chicken_electrum
+- chicken_roost:a_chicken_knight_slime
+- chicken_roost:a_chickenblazepowder
+- chicken_roost:a_chicken_mekanism_lead
+- chicken_roost:a_chicken_template
+- chicken_roost:a_chicken_soul_sand
+- chicken_roost:a_chicken_mekanism_tin
+- chicken_roost:a_chicken_ae_fluix_crystal
+- chicken_roost:a_chicken_nether_wart
+- chicken_roost:a_chicken_brass
+- chicken_roost:a_chicken_ender_pearl
+- chicken_roost:a_chicken_sapphire
+- chicken_roost:a_chicken_mekanism_bio_fuel
+- chicken_roost:a_chicken_pig_iron
+- chicken_roost:a_chickenghasttear
+- chicken_roost:a_chicken_allthemodium
+- chicken_roost:a_chicken_iron
+- chicken_roost:a_chicken_ae_silicon
+- chicken_roost:a_chicken_tungsten
+- chicken_roost:a_chicken_mekanism_bronze
+- chicken_roost:a_chicken_bone
+- chicken_roost:a_chicken_lumium
+- chicken_roost:a_chicken_blutonium
+- chicken_roost:a_chickensweetberries
+- chicken_roost:a_chicken_botania_livingwood
+- chicken_roost:a_chicken_ruby
+- chicken_roost:a_chicken_oakwood
+- chicken_roost:a_chicken_sulfur
+- chicken_roost:a_chicken_manyullyn
+- chicken_roost:a_chicken_paper
+- chicken_roost:a_chickensnow
+- chicken_roost:a_chickenbeetroot
+- chicken_roost:a_chickennetherite
+- chicken_roost:a_chicken_sand
+- chicken_roost:a_chicken_ae_charged_certus
+- chicken_roost:a_chicken_soul_soil
+- chicken_roost:a_chicken_emerald
+- chicken_roost:a_chicken_titanium
+- chicken_roost:a_chicken_enderium
+- chicken_roost:a_chicken_endstone
+- chicken_roost:a_chicken_rose_gold
+- chicken_roost:a_chickenspidereye
+- chicken_roost:a_chicken_coke
+- chicken_roost:a_chicken_glowstone
+- chicken_roost:a_chicken_quartz
+- chicken_roost:a_chicken_cobble
+- chicken_roost:a_chicken_quartz_enriched_iron
+- chicken_roost:a_chicken_honeycomb
+- chicken_roost:a_chicken_bitumen
+- chicken_roost:a_chicken_amethyst_bronze
+- chicken_roost:a_chicken_unobtainium
+
+#hexcasting:cannot_teleport
+- create:stationary_contraption?
+- create:gantry_contraption?
+- create:carriage_contraption?
+- create:super_glue?
+- create:crafting_blueprint?
+- create:seat?
+- minecraft:wither
+- minecraft:end_crystal
+- minecraft:ender_dragon
+- minecraft:item_frame
+- minecraft:painting
+- minecraft:leash_knot
+- minecraft:marker
