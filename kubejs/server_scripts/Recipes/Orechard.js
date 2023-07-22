@@ -278,7 +278,7 @@ onEvent('recipes', event => {
     })
 
     // netherrack
-    event.smelting('orechards:netherrack_acorn', 'orechards:gold_acorn')
+    event.blasting('orechards:netherrack_acorn', 'orechards:gold_acorn')
     event.shaped('1x orechards:netherrack_sapling', [
 		'SSS',
 		'SAS',

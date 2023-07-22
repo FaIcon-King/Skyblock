@@ -811,7 +811,11 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			description: ["Chickens have three stats, which you can see with The One Probe. These stats will increase in the offspring of two chickens of the same species, going up to 10 on each. They will increase how quickly your chickens produce resources, so it's important to breed chickens to 10/10/10 if you intend on using them for resource production."]
+			description: [
+				"Chickens have three stats, which you can see with The One Probe. These stats will increase in the offspring of two chickens of the same species, going up to 10 on each. They will increase how quickly your chickens produce resources, so it's important to breed chickens to 10/10/10 if you intend on using them for resource production."
+				""
+				"Also, a lot of chickens have breeding recipes. If you don't have the resource to make the chicken, check if it has a breeding recipe in JEI."
+			]
 			dependencies: ["64D631CB33832F2A"]
 			id: "1AA00E511075ABAE"
 			tasks: [{

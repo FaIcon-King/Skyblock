@@ -160,7 +160,6 @@
 			subtitle: "This stuff grows on trees, yknow"
 			description: ["You can use the acorns that drop from trees and some dirt from the island or from barrels to make dirt acorns and then a dirt sapling. This it the start of Orechard, a mod centered around gathering resources using trees."]
 			hide_dependency_lines: true
-			dependencies: ["57BB6277DC3D32F7"]
 			id: "3D6DE446698AB746"
 			tasks: [{
 				id: "778EF5F51BEB10F1"
@@ -299,7 +298,6 @@
 			subtitle: "Buckaw"
 			description: ["You can get seeds by sifting dirt. I'd recommend waiting until you can start a small wheat farm before getting into chickens. You'll need a lot of seeds."]
 			hide_dependency_lines: true
-			dependencies: ["57BB6277DC3D32F7"]
 			id: "0B9D6A0EE0CCF2C5"
 			tasks: [{
 				id: "78D5F0B08335F0DC"
@@ -324,7 +322,7 @@
 				id: "5F0824AAFB027471"
 				type: "questsadditions:interaction"
 				title: "Interact with a Chicken"
-				entity: "minecraft:chicken"
+				entity: "resourcechickens:chicken"
 				nbt: { }
 				value: 1L
 				checkItem: false
@@ -398,10 +396,9 @@
 			title: "Inferium"
 			icon: "mysticalagriculture:inferium_essence"
 			x: -11.5d
-			y: 10.0d
+			y: 8.5d
 			subtitle: "x1"
 			description: ["You can obtain inferium by either killing mobs or mining ore in the nether / end. "]
-			dependencies: ["0AAA4ED8053278AB"]
 			id: "1A3D7F380F86E639"
 			tasks: [{
 				id: "2B82720FCB2BE609"
@@ -413,7 +410,7 @@
 		{
 			title: "Inferium Seeds"
 			x: -11.5d
-			y: 11.5d
+			y: 10.0d
 			subtitle: "I used the inferium to grow the inferium"
 			description: ["Inferium seeds give you a renewable and consistent source of inferium. They will produce more essence on higher tier soils"]
 			dependencies: ["1A3D7F380F86E639"]
@@ -454,7 +451,6 @@
 			subtitle: "Grow and prosper, my child..."
 			description: ["Prosperity is needed to make a lot of base crafting materials. You can obtain it from sifting sand or from ore in the nether / end."]
 			hide_dependency_lines: true
-			dependencies: ["57BB6277DC3D32F7"]
 			id: "4329982FE40F52F7"
 			tasks: [{
 				id: "19994DB7353A4D2F"
@@ -535,36 +531,16 @@
 			]
 		}
 		{
-			title: "Kill Some Mobs"
-			icon: "minecraft:rotten_flesh"
 			x: -11.5d
-			y: 8.5d
-			subtitle: "Morally Correct Murder"
-			hide_dependency_lines: true
-			dependencies: ["57BB6277DC3D32F7"]
-			id: "0AAA4ED8053278AB"
-			tasks: [
-				{
-					id: "1BC5C9A97450E599"
-					type: "item"
-					item: "minecraft:rotten_flesh"
-				}
-				{
-					id: "33E501A1186D8C46"
-					type: "item"
-					item: "minecraft:bone"
-				}
-				{
-					id: "5FB2620032BA214B"
-					type: "item"
-					item: "minecraft:gunpowder"
-				}
-				{
-					id: "05E3CCCE6C6A8E70"
-					type: "item"
-					item: "minecraft:string"
-				}
-			]
+			y: 11.5d
+			description: ["Inferium farmland will give the inferium seeds an added chance to drop more inferium seeds so you can grow more plants without having to manually make more seeds."]
+			dependencies: ["35B8F3F5D0D9BFAC"]
+			id: "255389E09A5B6155"
+			tasks: [{
+				id: "48C9A2FA06A8E90D"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
 		}
 	]
 	quest_links: [ ]

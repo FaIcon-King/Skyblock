@@ -946,6 +946,7 @@
 			}]
 		}
 		{
+			icon: "mysticalagriculture:nether_star_seeds"
 			x: 16.0d
 			y: -2.5d
 			dependencies: ["10BB7339DC7E191C"]
@@ -964,6 +965,7 @@
 			]
 		}
 		{
+			icon: "mysticalagriculture:dragon_egg_seeds"
 			x: 15.5d
 			y: -3.5d
 			dependencies: ["10BB7339DC7E191C"]
@@ -982,6 +984,7 @@
 			]
 		}
 		{
+			icon: "mysticalagriculture:gaia_spirit_seeds"
 			x: 16.5d
 			y: -3.5d
 			dependencies: ["10BB7339DC7E191C"]
@@ -1000,6 +1003,7 @@
 			]
 		}
 		{
+			icon: "mysticalagriculture:nitro_crystal_seeds"
 			x: 16.0d
 			y: -4.5d
 			dependencies: ["10BB7339DC7E191C"]

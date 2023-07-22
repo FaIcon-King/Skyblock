@@ -1,4 +1,19 @@
+let waterBuckets = Ingredient.matchAny(['minecraft:water_bucket', Item.of('ceramics:cracked_fluid_clay_bucket', '{fluid:"minecraft:water"}')]);
+let lavaBuckets = Ingredient.matchAny(['minecraft:lava_bucket', Item.of('ceramics:cracked_fluid_clay_bucket', '{fluid:"minecraft:lava"}')]);
+
 onEvent('recipes', event => {
+	event.remove({output: 'cobblefordays:tier_1'})
+	event.shaped('1x cobblefordays:tier_1', [
+		'SSS',
+		'UAT',
+		'SSS'
+	], {
+		S: '#minecraft:logs',
+        U: waterBuckets,
+        T: lavaBuckets,
+        A: 'minecraft:glass'
+	})
+
 	event.remove({output: 'cobblefordays:tier_2'})
 	event.shaped('1x cobblefordays:tier_2', [
 		'SSS',
@@ -6,8 +21,8 @@ onEvent('recipes', event => {
 		'SSS'
 	], {
 		S: '#forge:cobblestone',
-        U: 'minecraft:water_bucket',
-        T: 'minecraft:lava_bucket',
+        U: waterBuckets,
+        T: lavaBuckets,
         A: 'cobblefordays:tier_1'
 	})
 
@@ -18,8 +33,8 @@ onEvent('recipes', event => {
 		'SSS'
 	], {
 		S: 'minecraft:iron_ingot',
-        U: 'minecraft:water_bucket',
-        T: 'minecraft:lava_bucket',
+        U: waterBuckets,
+        T: lavaBuckets,
         A: 'cobblefordays:tier_2'
 	})
 
@@ -30,8 +45,8 @@ onEvent('recipes', event => {
 		'SSS'
 	], {
 		S: 'minecraft:gold_ingot',
-        U: 'minecraft:water_bucket',
-        T: 'minecraft:lava_bucket',
+        U: waterBuckets,
+        T: lavaBuckets,
         A: 'cobblefordays:tier_3'
 	})
 
@@ -42,8 +57,8 @@ onEvent('recipes', event => {
 		'SSS'
 	], {
 		S: 'minecraft:diamond',
-        U: 'minecraft:water_bucket',
-        T: 'minecraft:lava_bucket',
+        U: waterBuckets,
+        T: lavaBuckets,
         A: 'cobblefordays:tier_4'
 	})
 })

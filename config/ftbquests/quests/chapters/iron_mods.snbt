@@ -1,0 +1,683 @@
+{
+	id: "1DAEBC0D26BFDFDF"
+	group: "40A737421D813850"
+	order_index: 0
+	filename: "iron_mods"
+	title: "Iron Mods"
+	icon: "ironfurnaces:iron_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Iron Chest"
+			icon: "ironchest:iron_chest"
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Iron Chests"
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "135897DB7F139266"
+			tasks: [{
+				id: "522B6751B94867D7"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:wood_to_iron_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Gold Chest"
+			icon: "ironchest:gold_chest"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["135897DB7F139266"]
+			id: "591A25C266C8E844"
+			tasks: [{
+				id: "14932C38DD82FD82"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:iron_to_gold_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:gold_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Chest"
+			icon: "ironchest:diamond_chest"
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["591A25C266C8E844"]
+			id: "371211852AAD04D3"
+			tasks: [{
+				id: "296061B49A977597"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:gold_to_diamond_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:diamond_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Obsidian Chest"
+			icon: "ironchest:obsidian_chest"
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["371211852AAD04D3"]
+			id: "7718E75B7F153FE3"
+			tasks: [{
+				id: "5BD559CF0B77BAFE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:diamond_to_obsidian_chest_upgrade"
+								Count: 1b
+							}
+							{
+								id: "ironchest:obsidian_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Iron Furnace"
+			icon: "ironfurnaces:iron_furnace"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Iron Furnaces"
+			description: ["Iron Furnaces adds upgrades to the vanilla furnace that speed up cook time."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "4523FBC9D01941AD"
+			tasks: [{
+				id: "06D423841AD9D16E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_iron"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:iron_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Gold Furnace"
+			icon: "ironfurnaces:gold_furnace"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4523FBC9D01941AD"]
+			id: "2C69FBA83F3A0F89"
+			tasks: [{
+				id: "4C092DB2570B762B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_gold"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:gold_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Furnace"
+			icon: "ironfurnaces:diamond_furnace"
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["2C69FBA83F3A0F89"]
+			id: "3925DB3200CEC370"
+			tasks: [{
+				id: "16E1C75736638841"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_diamond"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:diamond_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Emerald Furnace"
+			icon: "ironfurnaces:emerald_furnace"
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["3925DB3200CEC370"]
+			id: "4383A28C06BCEADB"
+			tasks: [{
+				id: "7AEDB5064761D836"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_emerald"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:emerald_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Obsidian Furnace"
+			icon: "ironfurnaces:obsidian_furnace"
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["4383A28C06BCEADB"]
+			id: "059FCDF87596ADF8"
+			tasks: [{
+				id: "771EC2FCE04F70DA"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_obsidian"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:obsidian_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Netherite Furnace"
+			icon: "ironfurnaces:netherite_furnace"
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["059FCDF87596ADF8"]
+			id: "5110E6248846AC59"
+			tasks: [{
+				id: "17CB83DD740A4BDE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:upgrade_netherite"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:netherite_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ironfurnaces:million_furnace"
+				Count: 1b
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			description: ["The rainbow furnace will generate 50,000 RF only if it is linked to one of every furnace type generating power using a generator augment."]
+			dependencies: ["5110E6248846AC59"]
+			id: "55C1DB1EB9ECB353"
+			tasks: [
+				{
+					id: "7A03844C0EC8E21B"
+					type: "item"
+					item: {
+						id: "ironfurnaces:million_furnace"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "0F295555D73CB961"
+					type: "item"
+					item: "ironfurnaces:item_linker"
+				}
+			]
+		}
+		{
+			title: "Wireless Heat"
+			icon: "ironfurnaces:heater"
+			x: -1.5d
+			y: -1.5d
+			description: ["The Wireless Heat Transmitter can be hooked up to power to fuel furnaces remotely. Just place the receiver in the transmitter and then put it in the fuel spot of a furnace."]
+			dependencies: ["4523FBC9D01941AD"]
+			id: "54CE7C7DB936CB64"
+			tasks: [
+				{
+					id: "4761D2BA24BF9B1B"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+				{
+					id: "604E7AD18D5FD44B"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+			]
+		}
+		{
+			title: "Augments"
+			icon: "ironfurnaces:augment_factory"
+			x: -2.5d
+			y: -1.0d
+			description: [
+				"Augments change the way Iron Furnaces work in some way. The factory augment makes the furnace take power and gives it multiple slots, while the generator augment will use furnace fuel to generate power."
+				""
+				"There's also speed augments and fuel efficiency augments if they suit your fancy."
+			]
+			dependencies: ["4523FBC9D01941AD"]
+			id: "72C26F1A5D1C2EC6"
+			tasks: [
+				{
+					id: "5AC54FA69913131E"
+					type: "item"
+					item: "ironfurnaces:augment_factory"
+				}
+				{
+					id: "717CA17FE77CDD00"
+					type: "item"
+					item: "ironfurnaces:augment_generator"
+				}
+			]
+		}
+		{
+			title: "Tier 0 Jetpack"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Iron Jetpacks"
+			description: ["Iron Jetpacks adds a series of jetpacks that allow flight when powered. Higher tier jetpacks allow faster flight and increased hover mode stability. "]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "3B9F13B52579A95F"
+			tasks: [{
+				id: "2201FFAC86F40D6F"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 1 Jetpack"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:stone"
+					Throttle: 1.0d
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["3B9F13B52579A95F"]
+			id: "3400F9513942D51D"
+			tasks: [{
+				id: "6500AAE742FFA92E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:stone"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:copper"
+									Throttle: 1.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 2 Jetpack"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["3400F9513942D51D"]
+			id: "4CD33E9F03A169D9"
+			tasks: [{
+				id: "33D2A9FEF430442B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:iron"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:silver"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:bronze"
+									Throttle: 1.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 3 Jetpack"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:gold"
+					Throttle: 1.0d
+				}
+			}
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["4CD33E9F03A169D9"]
+			id: "1D8E02846F12098A"
+			tasks: [{
+				id: "00EBF66F2885E458"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:gold"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:electrum"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:invar"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:steel"
+									Throttle: 1.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 4 Jetpack"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:diamond"
+					Throttle: 1.0d
+				}
+			}
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["1D8E02846F12098A"]
+			id: "3453CCDBA4059E23"
+			tasks: [{
+				id: "463A8DF4D7D175E2"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:diamond"
+									Throttle: 1.0d
+								}
+							}
+							{
+								id: "ironjetpacks:jetpack"
+								Count: 1b
+								tag: {
+									Id: "ironjetpacks:platinum"
+									Throttle: 1.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Tier 5 Jetpack"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["3453CCDBA4059E23"]
+			id: "7C4A33BF0ECA13F1"
+			tasks: [{
+				id: "12901E327F6B4304"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Sophisticated Backpacks"
+			description: ["Sophisticated Backpacks adds upgradeable backpacks that act as portable storage. "]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "3EC61428A16272A9"
+			tasks: [{
+				id: "00662D41A65F17BC"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["3EC61428A16272A9"]
+			id: "16345BD9801DF23A"
+			tasks: [{
+				id: "3CB4CC4F3779F59F"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["16345BD9801DF23A"]
+			id: "6FA694B5DF0F5045"
+			tasks: [{
+				id: "46F8937AECDA7F64"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["6FA694B5DF0F5045"]
+			id: "1EE55AFE68EA3A14"
+			tasks: [{
+				id: "61C317CF2E31BC8B"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["1EE55AFE68EA3A14"]
+			id: "39DB53EF84915BBD"
+			tasks: [{
+				id: "4BF62FBC9BC6614F"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["There's a ton of upgrades for the backpack. I'd suggest looking through JEI if you're interested in them."]
+			dependencies: ["3EC61428A16272A9"]
+			id: "6CC8445FF1C53707"
+			tasks: [{
+				id: "67DFE55580A23285"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

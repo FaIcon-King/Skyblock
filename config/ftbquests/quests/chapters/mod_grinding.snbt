@@ -1,0 +1,324 @@
+{
+	id: "741CA55AB1FD8303"
+	group: "78D4BF743C1B72FD"
+	order_index: 3
+	filename: "mod_grinding"
+	title: "Mob Grinding"
+	icon: "minecraft:rotten_flesh"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"The mob cage works similarly to a bonsai or botany pot, but instead of growing plants, it will simulate killing mobs. "
+				""
+				"In order for the cage to function, it must be supplied with DNA using a DNA extractor and a block to create an appropriate \"environment\" for the mob."
+			]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "25C3AEA6F9D4E3BC"
+			tasks: [{
+				id: "114EBEF064D4DDC4"
+				type: "item"
+				item: "cagedmobs:mobcage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["The hopping mob cage will automatically output drops into the inventory below it."]
+			dependencies: ["25C3AEA6F9D4E3BC"]
+			id: "16DA7CAC4C917C28"
+			tasks: [{
+				id: "082B96E6456F4E55"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"DNA collected from a DNA sampler is used to configure mob cages to the mob you want to farm."
+				""
+				"Simply make a syringe of the appropriate tier, hit the mob with the syringe, and then right click the DNA sample onto the mob cage."
+			]
+			dependencies: ["25C3AEA6F9D4E3BC"]
+			id: "65ABD2F5033FB34E"
+			tasks: [{
+				id: "060CA184B591A13B"
+				type: "item"
+				item: "cagedmobs:dnasampler"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Diamond DNA Samplers are used for more advanced mobs that are harder to farm in vanilla."]
+			dependencies: ["25C3AEA6F9D4E3BC"]
+			id: "24B38C792E2D204F"
+			tasks: [{
+				id: "59A3E1D0CE740E04"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["Netherite DNA Samplers are used specifically for boss mobs like the Wither."]
+			dependencies: ["24B38C792E2D204F"]
+			id: "59A0AECF348DFD5B"
+			tasks: [{
+				id: "702228DAB3A77C1E"
+				type: "item"
+				item: "cagedmobs:dnasamplernetherite"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["Iron spikes will damage mobs on contact. Mobs killed by this will drop xp but do not count as being killed by a player."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "509B8880D9D40787"
+			tasks: [{
+				id: "7A7A283B35EEBE7A"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: [
+				"The absorption hopper will collect items and experience within a 7x7x7 area around the block. This is how you collect the drops from the iron spikes / mob masher."
+				""
+				"The hopper can be configured to automatically output collected items or xp to adjacent inventories or fluid storage."
+			]
+			dependencies: ["6C258447FE09E85C"]
+			id: "701231CDA82B3EED"
+			tasks: [{
+				id: "68AACA82FC222921"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: [
+				"When powered by redstone, the mob masher functions similarly to iron spikes but kills DO register as being killed by a player. "
+				""
+				"Additionally, there are a bunch of useful upgrades, which I recommend searching for in JEI if you plan on making an extensive mob farm using this."
+			]
+			dependencies: ["509B8880D9D40787"]
+			id: "6C258447FE09E85C"
+			tasks: [{
+				id: "5A8EBAA887E2B192"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["A mob swab can be used on any mob to get a sample of their DNA."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "745F893CB0310D96"
+			tasks: [{
+				id: "66A8B5CE7554F42E"
+				type: "item"
+				item: "mob_grinding_utils:mob_swab"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			description: ["Crafting a mob swab into GM Chicken Feed allows you to create a spawn egg for that mob by using the feed on a chicken."]
+			dependencies: ["745F893CB0310D96"]
+			id: "5C37FF255F9BD6AA"
+			tasks: [{
+				id: "763A76E8E295D8B5"
+				type: "item"
+				item: "mob_grinding_utils:gm_chicken_feed"
+			}]
+		}
+		{
+			icon: "mob_grinding_utils:gm_chicken_feed_cursed"
+			x: 8.5d
+			y: 2.0d
+			description: ["A rotten egg can be used on dirt or grass to spawn a 5x5 plot of dreadful dirt, which spawns hostile mobs incredibly fast."]
+			dependencies: ["5C37FF255F9BD6AA"]
+			id: "1CD2145B02366C91"
+			tasks: [
+				{
+					id: "444269CF75E74A75"
+					type: "item"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+				}
+				{
+					id: "18E0F0AE769D777B"
+					type: "item"
+					item: "mob_grinding_utils:rotten_egg"
+				}
+			]
+		}
+		{
+			icon: "mob_grinding_utils:nutritious_chicken_feed"
+			x: 9.0d
+			y: 1.0d
+			description: ["A golden egg can be used on dirt or grass to spawn a 5x5 plot of delightful dirt, which spawns passive mobs incredibly fast."]
+			dependencies: ["5C37FF255F9BD6AA"]
+			id: "3280961FDB42D76C"
+			tasks: [
+				{
+					id: "321E83F5A0770217"
+					type: "item"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+				}
+				{
+					id: "0B72F3C07D1F19EE"
+					type: "item"
+					item: "mob_grinding_utils:golden_egg"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: [
+				"Apotheosis allows you to get spawners by breaking them with silk touch. Blaze spawners in the nether are probably the easiest way to get these."
+				""
+				"There's also a bunch of useful spawner modifications you can get by using certain items on a spawner. Check the uses of a spawner in JEI for more information."
+			]
+			dependencies: ["5C37FF255F9BD6AA"]
+			id: "0620D47CF95E6D64"
+			tasks: [{
+				id: "1465C12C22711F4B"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["The ender inhibitor, when active, stops enderman in range from teleporting."]
+			dependencies: ["6C258447FE09E85C"]
+			id: "3EE5902097A050C4"
+			tasks: [{
+				id: "57D19A078791F9EC"
+				type: "item"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			description: ["When powered by redstone, the mob fan will push mobs in the direction it faces. There are also upgrades that increase the area the fan pushes."]
+			dependencies: ["6C258447FE09E85C"]
+			id: "315237E7AEF40731"
+			tasks: [{
+				id: "034D80295FE03880"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			description: ["The deep learner is the basis for Hostile Neural Networks and will allow you to collect data on mobs you kill."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "68CCCB9B3F80BE48"
+			tasks: [{
+				id: "275AB032E6ADF57D"
+				type: "item"
+				item: "hostilenetworks:deep_learner"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			description: [
+				"The model framework, when right clicked on a mob, will build a data model of that mob. From there, place the data model in the deep learner and kill mobs of that type to start collecting data."
+				""
+				"A data model tier of at least basic is required to run a simulation. From there, the tier can be increased by killing the mob type with the data model in the deep learner or running the data model in the simulation chamber."
+			]
+			dependencies: ["68CCCB9B3F80BE48"]
+			id: "00BC2456A339A74A"
+			tasks: [{
+				id: "537AE18ACF0AB667"
+				type: "item"
+				item: "hostilenetworks:blank_data_model"
+			}]
+		}
+		{
+			icon: "hostilenetworks:sim_chamber"
+			x: 14.0d
+			y: 0.0d
+			subtitle: "It takes clay so its balanced"
+			description: [
+				"The simulation chamber, when provided with a data model and prediction matrix as well as a decent amount of power, will run a \"simulation\" of the data model's mob type."
+				""
+				"The chamber will produce a generalized prediction of the mob's dimension. It also has a percent chance based on the data model tier to produce a mob-specific prediction, which can be used in the loot fabricator."
+			]
+			dependencies: ["00BC2456A339A74A"]
+			id: "762AC42CDE2C5DF8"
+			tasks: [
+				{
+					id: "0885A81BAC9B5947"
+					type: "item"
+					item: "hostilenetworks:sim_chamber"
+				}
+				{
+					id: "44E42E02C63DD017"
+					type: "item"
+					item: "hostilenetworks:empty_prediction"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			description: ["The loot fabricator can produce a variety of loot based on the mob's prediction. This is a good way to quickly produce a large amount of mob drops, and can also produce some metals like gold, iron, and copper."]
+			dependencies: ["762AC42CDE2C5DF8"]
+			id: "4BE004BAEBE9EB84"
+			tasks: [{
+				id: "1C413CD6509F9757"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: ["Vector plates and their upgrades are a more precise alternative to mob fans. They push entities directly where they point."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "385B1715AEA64EC1"
+			tasks: [{
+				id: "5CA512294699AA19"
+				type: "item"
+				item: "darkutils:vector_plate"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			description: [
+				"Ethereal glass can be useful for mob farms. They allow players to walk through but block other entities."
+				""
+				"Reverse ethereal glass does the opposite."
+				""
+				"There's other types of useful/decorative glass as well. Search @glass in JEI to look at the two glass mods."
+			]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "4846E1259A21BC0D"
+			tasks: [{
+				id: "699CA29C26085583"
+				type: "item"
+				item: "glassential:glass_ethereal"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

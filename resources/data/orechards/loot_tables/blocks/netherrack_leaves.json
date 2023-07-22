@@ -98,7 +98,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:quartz",
+          "name": "minecraft:nether_wart",
           "functions": [
             {
               "function": "minecraft:set_count",

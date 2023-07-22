@@ -9,7 +9,7 @@
     {"rolls":1,"chance":0.75,"result":{"item":"minecraft:oak_log"}},
     {"rolls":2,"chance":0.55,"result":{"item":"orechards:netherrack_resin"}},
     {"rolls":2,"chance":0.55,"result":{"item":"orechards:netherrack_acorn"}},
-    {"rolls":3,"chance":0.2,"result":{"item":"minecraft:quartz"}},
+    {"rolls":3,"chance":0.2,"result":{"item":"minecraft:nether_wart"}},
     {"rolls":1,"chance":0.75,"result":{"item":"orechards:netherrack_log"},"requiresSilkTouch":true},
     {"rolls":2,"chance":0.2,"result":{"item":"orechards:netherrack_leaves"},"requiresSilkTouch":true}
   ],"compatibleSoilTags":["dirt",
