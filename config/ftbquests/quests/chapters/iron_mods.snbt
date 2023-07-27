@@ -392,6 +392,7 @@
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -411,30 +412,23 @@
 			tasks: [{
 				id: "6500AAE742FFA92E"
 				type: "item"
-				item: {
-					id: "itemfilters:or"
+				icon: {
+					id: "ironjetpacks:jetpack"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:stone"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:copper"
-									Throttle: 1.0d
-								}
-							}
-						]
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
 					}
 				}
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -454,38 +448,23 @@
 			tasks: [{
 				id: "33D2A9FEF430442B"
 				type: "item"
-				item: {
-					id: "itemfilters:or"
+				icon: {
+					id: "ironjetpacks:jetpack"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:iron"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:silver"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:bronze"
-									Throttle: 1.0d
-								}
-							}
-						]
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
 					}
 				}
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -506,45 +485,14 @@
 				id: "00EBF66F2885E458"
 				type: "item"
 				item: {
-					id: "itemfilters:or"
+					id: "ironjetpacks:jetpack"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:gold"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:electrum"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:invar"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:steel"
-									Throttle: 1.0d
-								}
-							}
-						]
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -565,29 +513,14 @@
 				id: "463A8DF4D7D175E2"
 				type: "item"
 				item: {
-					id: "itemfilters:or"
+					id: "ironjetpacks:jetpack"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:diamond"
-									Throttle: 1.0d
-								}
-							}
-							{
-								id: "ironjetpacks:jetpack"
-								Count: 1b
-								tag: {
-									Id: "ironjetpacks:platinum"
-									Throttle: 1.0d
-								}
-							}
-						]
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{
@@ -607,6 +540,7 @@
 						Throttle: 1.0d
 					}
 				}
+				match_nbt: true
 			}]
 		}
 		{

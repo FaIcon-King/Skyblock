@@ -1,9 +1,9 @@
 minecraft:overworld
-minecraft:the_end
-orechards:orechards
-minecraft:the_nether
-bonsaitrees3:growtown
-ae2:spatial_storage
-mythicbotany:alfheim
-compactmachines:compact_world
 bloodmagic:dungeon
+minecraft:the_nether
+mythicbotany:alfheim
+ae2:spatial_storage
+compactmachines:compact_world
+bonsaitrees3:growtown
+orechards:orechards
+minecraft:the_end

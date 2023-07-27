@@ -238,6 +238,13 @@ onEvent('recipes', event => {
 		S: 'orechards:lapis_acorn',
         A: 'orechards:iron_sapling'
 	})
+    event.shaped('1x minecraft:lapis_block', [
+		'SSS',
+		'SSS',
+		'SSS'
+	], {
+		S: 'minecraft:lapis_lazuli'
+	})
 
     // redstone
     event.remove({output: 'orechards:redstone_sapling'})
@@ -256,6 +263,13 @@ onEvent('recipes', event => {
 	], {
 		S: 'orechards:redstone_acorn',
         A: 'orechards:iron_sapling'
+	})
+    event.shaped('1x minecraft:redstone_block', [
+		'SSS',
+		'SSS',
+		'SSS'
+	], {
+		S: 'minecraft:redstone'
 	})
 
     // diamond

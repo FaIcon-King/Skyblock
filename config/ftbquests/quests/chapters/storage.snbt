@@ -1,0 +1,920 @@
+{
+	id: "53619EC82E1D4CBD"
+	group: "40A737421D813850"
+	order_index: 1
+	filename: "storage"
+	title: "Storage"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"Storage drawers can store a ton of one type of item. 1x2 and 2x2 drawers maintain the same storage capacity but split it evenly amount 2 or 4 item types."
+				""
+				"Keep in mind that the drawers measure storage by stack, so it can hold a smaller number of ender pearls, which stack to 16, than iron ingots, which stack to 64."
+			]
+			dependencies: ["122511AA17DF85D5"]
+			id: "375DCE314E5A8E4B"
+			tasks: [{
+				id: "0DD4D4A6F7095252"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Compacting drawers will automatically check for compression type recipes using the item and will allow you to take out any amount of any level of compression."
+				""
+				"For example, iron ingots will allow you to take out iron blocks or iron nuggets, and cobblestone will allow cobblestone, compressed cobblestone, and double compressed cobblestone."
+			]
+			dependencies: ["375DCE314E5A8E4B"]
+			id: "7C2C6104D222E761"
+			tasks: [{
+				id: "5BDD5C505367C20D"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"Drawer controller will connect with all drawers physically connected to it by other drawers or by drawer slaves, and will accept input for all of them at once."
+				""
+				"This allows large drawer networks to accept input from one pipe and will also allow ME or RS systems to access all connected drawers as one storage interface."
+			]
+			dependencies: ["375DCE314E5A8E4B"]
+			id: "71C280BD663D3A95"
+			tasks: [{
+				id: "004A4DCE11128221"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			icon: "storagedrawers:upgrade_template"
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Drawer upgrades can significantly increase the storage capacity of drawers, as well as do things like allow drawers to automatically void excess items and to emit redstone signals at full capacity."
+				""
+				"The drawer key allows you to lock a drawer to its item, so it will still only accept that item even if it empties. Useful for automation."
+			]
+			dependencies: ["375DCE314E5A8E4B"]
+			id: "33193AB09556FE24"
+			tasks: [
+				{
+					id: "3CF63750D751FA25"
+					type: "item"
+					item: "storagedrawers:upgrade_template"
+				}
+				{
+					id: "66A7343ED6E584E8"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			description: ["The ME controller is the heart of the ME system and a system cannot function without one. It accepts power and shows the power usage and connected machines of the whole system."]
+			dependencies: [
+				"4BE19A827713F9A1"
+				"0B8A130D170764BE"
+			]
+			id: "589CF109376C1A27"
+			tasks: [{
+				id: "47F27E47EDBDD9AB"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: [
+				"Fluix dust can be obtained by throwing certus quartz, nether quartz, and redstone in water or by sifting dust in a diamond mesh or above."
+				""
+				"From there you make a fluix seed, and either leave it in water for 20 minutes or put it in a Mekanism Enrichment Chamber."
+			]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "0B8A130D170764BE"
+			tasks: [{
+				id: "02D2DF183EFCF32C"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+		}
+		{
+			title: "Inscriber Presses"
+			x: -3.5d
+			y: 3.0d
+			description: ["Inscriber presses are required to make the components to circuits. They can be obtained by smithing or through mystical agriculture."]
+			dependencies: ["5A79AEEBE7EE8DEF"]
+			id: "4BE19A827713F9A1"
+			tasks: [
+				{
+					id: "1176C851B8D6E797"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "18777B08BF8AE566"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "73E5A0080F43B6C7"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "058C03392AC112E2"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["The inscriber is used to make circuits, which are the backbone for most of the ME system."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "5A79AEEBE7EE8DEF"
+			tasks: [{
+				id: "65F512C2172D5D55"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["The advanced inscriber gets rid of the weird side config for inscriber automation and also has two extra slots for upgrades."]
+			dependencies: ["5A79AEEBE7EE8DEF"]
+			id: "005E51280D3F2A10"
+			tasks: [{
+				id: "29F0757992FBB3F8"
+				type: "item"
+				item: "ae2things:advanced_inscriber"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			description: ["Acceleration cards can be used in a ton of AE2 machines, including the inscriber, to speed up processes."]
+			dependencies: ["5A79AEEBE7EE8DEF"]
+			id: "7FF5B6219A9DFC40"
+			tasks: [{
+				id: "767229A3DC09990C"
+				type: "item"
+				item: "ae2:speed_card"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["The ME drive holds storage cells and allows the ME system to store items, fluids, etc."]
+			dependencies: ["589CF109376C1A27"]
+			id: "6F6EAEE28108FD75"
+			tasks: [{
+				id: "17545F4B5B1C4204"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			icon: "ae2:crafting_terminal"
+			x: -6.5d
+			y: 3.0d
+			description: [
+				"The ME terminal allows access to the ME system. The crafting terminal adds a crafting table and will crafting using any items in the system."
+				""
+				"Terminals need to be connected by fluix cables. Regular fluix cables can carry 8 channels, or can connect to 8 things, but dense cables can connect to 32."
+			]
+			dependencies: ["589CF109376C1A27"]
+			id: "42C74A23EB0D7C0C"
+			tasks: [
+				{
+					id: "3278CCF82DA4B52F"
+					type: "item"
+					item: "ae2:crafting_terminal"
+				}
+				{
+					id: "6004D2D92A2A48BB"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			description: ["Storage components are used to craft various storage items that allow the system to store items, fluids, crafting requests, etc. Higher tiers store more."]
+			dependencies: ["6F6EAEE28108FD75"]
+			id: "35946D42E8F01878"
+			tasks: [{
+				id: "70F9CFA7DF43E533"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["35946D42E8F01878"]
+			id: "672F7978186C5F27"
+			tasks: [{
+				id: "5192FBE8981002F0"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			dependencies: ["672F7978186C5F27"]
+			id: "4F2AFDC2000792A5"
+			tasks: [{
+				id: "1E1F14E7E593DA9F"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["4F2AFDC2000792A5"]
+			id: "242CE2E084C93ABB"
+			tasks: [{
+				id: "1B291D84D2EC6777"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			dependencies: ["242CE2E084C93ABB"]
+			id: "2F4ECF49A478C8FB"
+			tasks: [{
+				id: "399DAFE2E34C50E5"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			description: ["Regular item cell housing allows the storage of 63 types of items and the storage component's number of items."]
+			dependencies: ["35946D42E8F01878"]
+			id: "780BE0EE240992EE"
+			tasks: [{
+				id: "2E6BB96D698182EC"
+				type: "item"
+				item: "ae2:item_cell_housing"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			description: ["DISK cells are a bit more expensive, but allow storage of the component's amount of items regardless of item types, similar to Refined Storage."]
+			dependencies: ["35946D42E8F01878"]
+			id: "733C66267C820D7E"
+			tasks: [{
+				id: "5CBD886AD8DC2FE7"
+				type: "item"
+				item: "ae2things:disk_housing"
+			}]
+		}
+		{
+			icon: "ae2:pattern_encoding_terminal"
+			x: -8.0d
+			y: 3.0d
+			description: [
+				"The pattern encoding terminal is the first step towards autocrafting, allowing blank patterns to be given recipes."
+				""
+				"Use processing mode if the recipe is not a regular crafting recipe, such as a furnace recipe."
+			]
+			dependencies: ["42C74A23EB0D7C0C"]
+			id: "0A6FBE6D97D2BDD1"
+			tasks: [
+				{
+					id: "717A5D9B431FD6F7"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "598A8EDC56FB28E6"
+					type: "item"
+					item: "ae2:blank_pattern"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			description: [
+				"The pattern provider gives adjacent blocks the inputs for auto-crafting when the provided patterns are requested from the system."
+				""
+				"For crafting, it's best to use molecular assemblers from AE2. For processing recipes, the output needs to go back into the system somehow for the crafting process to continue. This can be done by pushing the output items back into the pattern provider."
+			]
+			dependencies: ["0A6FBE6D97D2BDD1"]
+			id: "1CE7DBC5DD850F41"
+			tasks: [{
+				id: "2DFD9C607F75784F"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: ["The molecular assembler connects to the ME system but doesn't use channels. It will craft items requested by the pattern provider and can be upgraded with acceleration cards."]
+			dependencies: ["1CE7DBC5DD850F41"]
+			id: "335B377D913142F6"
+			tasks: [{
+				id: "316F363CAB7CD066"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			description: [
+				"The crafting unit is required for the ME system to process crafting requests. Crafting requests require a certain number of bites based on the request, which are handled by crafting storages."
+				""
+				"Each crafting storage unit can be shaped into a rectangular prism of storages and helpers, which can each handle one overall crafting request."
+			]
+			dependencies: [
+				"1CE7DBC5DD850F41"
+				"35946D42E8F01878"
+			]
+			id: "7D414221C03CBD9E"
+			tasks: [{
+				id: "12D7D584F7AAD2A0"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			description: ["Crafting co-processing units allow crafting requests to attempt to craft multiple steps of the request at a time, which speeds up the overall crafting process if possible."]
+			dependencies: ["7D414221C03CBD9E"]
+			id: "1AC992A8DFEE501E"
+			tasks: [{
+				id: "192B5660E9735012"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			description: ["The ME security terminal allows you to set who can access your system and how, but it's primarily used to link a wireless terminal so you can access the system wirelessly."]
+			dependencies: ["42C74A23EB0D7C0C"]
+			id: "5FC4363E470E00F2"
+			tasks: [{
+				id: "14B442B3E6132B87"
+				type: "item"
+				item: "ae2:security_station"
+			}]
+		}
+		{
+			icon: "ae2:wireless_crafting_terminal"
+			x: -8.0d
+			y: 4.5d
+			description: ["The wireless crafting terminal allows you to access the ME system from anywhere in range of a wireless access point. Range can be increased with wireless boosters."]
+			dependencies: ["5FC4363E470E00F2"]
+			id: "41A59AB405AAABEE"
+			tasks: [
+				{
+					id: "5F1638527513E0BE"
+					type: "item"
+					item: "ae2:wireless_crafting_terminal"
+				}
+				{
+					id: "38583C28F5C139B9"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			description: ["The infinity booster card makes the wireless terminal no longer require to be in range of an ME wireless access point."]
+			dependencies: ["41A59AB405AAABEE"]
+			id: "033B9DDCE6222C23"
+			tasks: [{
+				id: "1B1A8B429E24F5AD"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			description: ["The matter condensor can create a couple of items from AE2, the most important being the singularity. You can fill the condensor with any item or with fluids like water, but it needs about 64,000 units to make one singularity, so the best method is generally using some sort of machine to pump in water."]
+			dependencies: ["57BB6277DC3D32F7"]
+			id: "5D3487B33C771260"
+			tasks: [{
+				id: "55FFC7FF94B0FCE4"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.0d
+			dependencies: [
+				"5D3487B33C771260"
+				"4BE19A827713F9A1"
+			]
+			id: "15AA7E27DE409147"
+			tasks: [{
+				id: "3C608181F1C63FE0"
+				type: "item"
+				item: "lazierae2:universal_press"
+			}]
+		}
+		{
+			icon: "ae2:quantum_entangled_singularity"
+			x: -5.0d
+			y: 3.5d
+			description: ["The quantum ring allows wireless connections to the ME system through a small multiblock. Blowing up a singularity and ender dest with TNT will yield two entangled singularities which can be placed in two quantum entangled rings anywhere in the world to act as a wireless connection to the system."]
+			dependencies: ["5D3487B33C771260"]
+			id: "6137A43A60D9F1FD"
+			tasks: [
+				{
+					id: "05CDDE33FB757C10"
+					type: "item"
+					item: "ae2:quantum_ring"
+				}
+				{
+					id: "59291C5A2658B364"
+					type: "item"
+					item: "ae2:quantum_link"
+				}
+				{
+					id: "2391C6ABB20CE655"
+					type: "item"
+					item: "ae2:quantum_entangled_singularity"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 7.0d
+			description: [
+				"The Matter Infuser allows you to create various crafting materials from Lazier AE2, as well as having a couple cheaper recipes for various modded items."
+				""
+				"This, along with any other Lazier AE2 machine, can also take acceleration cards."
+			]
+			dependencies: ["5D3487B33C771260"]
+			id: "1004E48964AE8AE0"
+			tasks: [{
+				id: "4C92E26026CD9CA3"
+				type: "item"
+				item: "lazierae2:infuser"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			description: ["The fluix aggregator makes various fluix and certus related recipes, like fluix crystals and charges certus quartz."]
+			dependencies: [
+				"1004E48964AE8AE0"
+				"15AA7E27DE409147"
+			]
+			id: "49770E48912E21F0"
+			tasks: [{
+				id: "6B259A205A79B166"
+				type: "item"
+				item: "lazierae2:aggregator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			description: ["The circuit etcher removes the need for presses, making circuits directly from the raw materials."]
+			dependencies: [
+				"1004E48964AE8AE0"
+				"15AA7E27DE409147"
+			]
+			id: "26484D9B5CFD3F4B"
+			tasks: [{
+				id: "49A61995D61FB88C"
+				type: "item"
+				item: "lazierae2:etcher"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["The controller is the heart of the RS system. It accepts power and allows the whole thing to function."]
+			dependencies: [
+				"1F1792F33095D306"
+				"509FB9225FAFC5CE"
+			]
+			id: "6D0F68F3B4EDF01B"
+			tasks: [{
+				id: "74A2F17E7E818206"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Quartz enriched iron is the basic crafting material for RS machines."]
+			id: "1F1792F33095D306"
+			tasks: [{
+				id: "0C96BCEB1EA339D1"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["Processor bindings are used to create raw processors, which smelt into processors, a core crafting material for Refined Storage."]
+			id: "509FB9225FAFC5CE"
+			tasks: [{
+				id: "5B5E46AE29BCF496"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["The disk drive hold storage disks and allows the RS system to store items."]
+			dependencies: ["6D0F68F3B4EDF01B"]
+			id: "3D8374EF4F65BD26"
+			tasks: [{
+				id: "45983CBA677ED173"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			icon: "refinedstorage:crafting_grid"
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"The crafting grid allows you to access items in the RS system and comes with a built in crafting table."
+				""
+				"The grid can be connected by other RS system blocks or by cable to the controller. Unlike ME systemes, RS systems are not restricted by channels."
+			]
+			dependencies: ["6D0F68F3B4EDF01B"]
+			id: "0C274495F31FF2EE"
+			tasks: [
+				{
+					id: "171EB916ECDF72D8"
+					type: "item"
+					item: "refinedstorage:crafting_grid"
+				}
+				{
+					id: "1DB76F3A453AA694"
+					type: "item"
+					item: "refinedstorage:cable"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["Storage parts allow crafting storage disks for the RS system. Higher tiers store more."]
+			dependencies: ["3D8374EF4F65BD26"]
+			id: "0562BBF2666E29EF"
+			tasks: [{
+				id: "4D35F4C9A5243EFA"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["0562BBF2666E29EF"]
+			id: "4CE3E30AAB1A506C"
+			tasks: [{
+				id: "37F543D3CA69B5C6"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["4CE3E30AAB1A506C"]
+			id: "0DDB5ED4ACA859D4"
+			tasks: [{
+				id: "45F6F4E3237DE4CC"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["0DDB5ED4ACA859D4"]
+			id: "5D753FE5D4D32CD1"
+			tasks: [{
+				id: "6B6223E254EDB978"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["5D753FE5D4D32CD1"]
+			id: "05E680F0C23EE611"
+			tasks: [{
+				id: "2B3C22DB44A18350"
+				type: "item"
+				item: "extradisks:256k_storage_part"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["05E680F0C23EE611"]
+			id: "65927109E028FBD2"
+			tasks: [{
+				id: "1D1E6D9F76E5079D"
+				type: "item"
+				item: "extradisks:1024k_storage_part"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["65927109E028FBD2"]
+			id: "49430598065B8E30"
+			tasks: [{
+				id: "060EC246C8E38A35"
+				type: "item"
+				item: "extradisks:4096k_storage_part"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["49430598065B8E30"]
+			id: "745D2FE77BCE0FD2"
+			tasks: [{
+				id: "368DEAAE5D0AAA09"
+				type: "item"
+				item: "extradisks:16384k_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			dependencies: ["745D2FE77BCE0FD2"]
+			id: "7128EC68532ECA7B"
+			tasks: [{
+				id: "4582E9C7A3639C1F"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: ["7128EC68532ECA7B"]
+			id: "2CFBCA10A967AED0"
+			tasks: [{
+				id: "3BED785EEC458B26"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["2CFBCA10A967AED0"]
+			id: "756E88BE40F810B4"
+			tasks: [{
+				id: "00434B99F91E2AE4"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			dependencies: ["756E88BE40F810B4"]
+			id: "7B8D2626831C0030"
+			tasks: [{
+				id: "59F42DE79790724F"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			description: ["Storage housing is crafted with default RS storage parts to make a storage disk to place in the disk drive."]
+			dependencies: ["0562BBF2666E29EF"]
+			id: "23845D4E57D20328"
+			tasks: [{
+				id: "517A77AF6DCE586E"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+		}
+		{
+			icon: "refinedstorage:pattern_grid"
+			x: 8.0d
+			y: 3.0d
+			description: ["The pattern grid is used to encode crafting recipes using patterns."]
+			dependencies: ["0C274495F31FF2EE"]
+			id: "0C27156C4F50D1EF"
+			tasks: [
+				{
+					id: "5C89A45682EE4E87"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "2C546138E59BBF3E"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			description: ["Advanced storage housing is used for disks added by extra disks. Other than that, they function similarly to the RS equivalent."]
+			dependencies: ["05E680F0C23EE611"]
+			id: "297B0871DFB2D364"
+			tasks: [{
+				id: "7A2B28A484992D49"
+				type: "item"
+				item: "extradisks:advanced_storage_housing"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["If a crafter has a pattern and is connected to the RS system, the system allows auto crafting of the pattern. A crafter will craft recipes on its own, or, if put into processing mode, will input items to the block in front of it to perform processing recipes similarly to AE2."]
+			dependencies: ["0C27156C4F50D1EF"]
+			id: "227F9086D1C556E8"
+			tasks: [{
+				id: "6F7C2B8D3322E8C0"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["227F9086D1C556E8"]
+			id: "08973635A8F49548"
+			tasks: [{
+				id: "6B443EF0CEB08E1E"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["08973635A8F49548"]
+			id: "75765B454E63A713"
+			tasks: [{
+				id: "69F2326FD3DA6690"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			dependencies: ["75765B454E63A713"]
+			id: "6A256851B437F572"
+			tasks: [{
+				id: "414BF2433A459424"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			dependencies: ["6A256851B437F572"]
+			id: "2622527EABD9595C"
+			tasks: [{
+				id: "33E5E933F4A70047"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			description: ["Speed upgrades can be placed in various RS blocks to speed up operation."]
+			dependencies: ["227F9086D1C556E8"]
+			id: "2934D852EEF21713"
+			tasks: [{
+				id: "3FAE240784F36542"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+		}
+		{
+			icon: "refinedstorageaddons:wireless_crafting_grid"
+			x: 6.5d
+			y: 4.5d
+			description: ["The wireless crafting grid allows you to access the system wirelessly in range of a wireless transmitter. The range of a transmitter can be increased with range upgrades."]
+			dependencies: ["0C274495F31FF2EE"]
+			id: "60E0BA86BC3E937C"
+			tasks: [
+				{
+					id: "50D01AA6B5DF58FC"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "698F60FF68EBCFCA"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			description: ["The infinity range booster circumvents the need to be in range of a wireless transmitter, allowing wireless grids to access the system from anywhere."]
+			dependencies: ["60E0BA86BC3E937C"]
+			id: "415EC91B661409B3"
+			tasks: [{
+				id: "2456D79CD0C8CC72"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			description: ["The requester connects to an ME system and will make the system automatically craft an item when it drops below a set amount."]
+			dependencies: [
+				"1004E48964AE8AE0"
+				"15AA7E27DE409147"
+			]
+			id: "42E5363DA1AB3981"
+			tasks: [{
+				id: "6EE93779594D6849"
+				type: "item"
+				item: "lazierae2:requester"
+			}]
+		}
+		{
+			title: "Wireless System"
+			x: 5.0d
+			y: 3.5d
+			description: ["This little setup allows wireless access to the system in-world. Simply place a network receiver, click the network card on it, and put the bound network card into a network transmitter. The network receiver will then act similarly to a controller, but is connected to the system."]
+			id: "5358D7298BC953F5"
+			tasks: [
+				{
+					id: "53A18605DB01CEDB"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "4ACC7B94153FECE9"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "4FEF215E76E8D233"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
